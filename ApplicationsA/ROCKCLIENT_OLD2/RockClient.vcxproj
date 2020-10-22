@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <ProjectGuid>{9FB3200C-37B6-6A7A-ED5D-05147E6E10B1}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\;..\..\..\RockBase\Include;..\..\Include;.\bravolibs;.\rocklibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USING_ROCKBASE_DLL;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\RockClient.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\RockClient.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <OutputFile>.\Debug\RockClient.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>..\..\Bin\Client\RockClientD.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;..\..\..\RockBase\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;dinput8.lib;ddraw.lib;d3dx9.lib;d3dxof.lib;dsound.lib;dxerr9.lib;d3dx9dt.lib;winmm.lib;dxguid.lib;Strmiids.lib;Quartz.lib;Strmbase.lib;version.lib;imm32.lib;HsUserUtil.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;.\;..\..\..\RockBase\Include;..\..\Include;.\bravolibs;.\rocklibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;USING_ROCKBASE_DLL;STRICT;_USE_32BIT_TIME_T ;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\RockClient.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\RockClient.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <OutputFile>.\Release\RockClient.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>..\..\Bin\Client\RockClient.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;..\..\Lib;..\..\..\RockBase\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;dinput8.lib;d3dx9.lib;d3dxof.lib;dsound.lib;winmm.lib;dxguid.lib;Strmiids.lib;Quartz.lib;version.lib;imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="brother.cpp" />
+    <ClCompile Include="CAction.cpp" />
+    <ClCompile Include="CCollision.cpp" />
+    <ClCompile Include="CDynamicVertexBuffer.cpp" />
+    <ClCompile Include="charitem.cpp" />
+    <ClCompile Include="CLightState.cpp" />
+    <ClCompile Include="CLogo2DEffect.cpp" />
+    <ClCompile Include="CNodeSort.cpp" />
+    <ClCompile Include="CSceneManager.cpp" />
+    <ClCompile Include="CSetEnv.cpp" />
+    <ClCompile Include="CSlangFilter.cpp" />
+    <ClCompile Include="CWebDialog.cpp" />
+    <ClCompile Include="DelayActList.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="IExplore.c" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="mobject.cpp" />
+    <ClCompile Include="NetworkMgr.cpp" />
+    <ClCompile Include="PacketCrypto.cpp" />
+    <ClCompile Include="pc.cpp" />
+    <ClCompile Include="UIDataManager.cpp" />
+    <ClCompile Include="VFileSystem.cpp" />
+    <ClCompile Include="bravolibs\obj\findway.cpp" />
+    <ClCompile Include="bravolibs\obj\Inject.cpp" />
+    <ClCompile Include="bravolibs\obj\objmath.cpp" />
+    <ClCompile Include="bravolibs\obj\path_find.cpp" />
+    <ClCompile Include="bravolibs\obj\WinLock.cpp" />
+    <ClCompile Include="bravolibs\obj\animation.cpp" />
+    <ClCompile Include="bravolibs\obj\model.cpp" />
+    <ClCompile Include="bravolibs\obj\texture.cpp" />
+    <ClCompile Include="bravolibs\obj\texturemanager.cpp" />
+    <ClCompile Include="bravolibs\obj\ActionSystem.cpp" />
+    <ClCompile Include="bravolibs\obj\CCharImage.cpp" />
+    <ClCompile Include="bravolibs\obj\CClassView.cpp" />
+    <ClCompile Include="bravolibs\obj\CFaceExp.cpp" />
+    <ClCompile Include="bravolibs\obj\character.cpp" />
+    <ClCompile Include="bravolibs\obj\character_animation.cpp" />
+    <ClCompile Include="bravolibs\obj\character_item.cpp" />
+    <ClCompile Include="bravolibs\obj\CharacterAI.cpp" />
+    <ClCompile Include="bravolibs\obj\CHolyManager.cpp" />
+    <ClCompile Include="bravolibs\obj\CMantleItem.cpp" />
+    <ClCompile Include="bravolibs\obj\CNPCImpactTable.cpp" />
+    <ClCompile Include="bravolibs\obj\EffItemManager.cpp" />
+    <ClCompile Include="bravolibs\obj\nonplayer.cpp" />
+    <ClCompile Include="bravolibs\obj\player.cpp" />
+    <ClCompile Include="bravolibs\obj\player_manager.cpp" />
+    <ClCompile Include="bravolibs\obj\PlayerNPCDataManager.cpp" />
+    <ClCompile Include="bravolibs\obj\SkillSystem.cpp" />
+    <ClCompile Include="bravolibs\obj\SourceDataManager.cpp" />
+    <ClCompile Include="bravolibs\obj\object.cpp" />
+    <ClCompile Include="bravolibs\obj\object_manager.cpp" />
+    <ClCompile Include="bravolibs\map\d3drenderobj.cpp" />
+    <ClCompile Include="bravolibs\map\field.cpp" />
+    <ClCompile Include="bravolibs\map\fieldattr.cpp" />
+    <ClCompile Include="bravolibs\map\fieldgeomedit.cpp" />
+    <ClCompile Include="bravolibs\map\fieldgrass.cpp" />
+    <ClCompile Include="bravolibs\map\fieldmapping.cpp" />
+    <ClCompile Include="bravolibs\map\fieldmultimap.cpp" />
+    <ClCompile Include="bravolibs\map\fieldnpc.cpp" />
+    <ClCompile Include="bravolibs\map\fieldobj.cpp" />
+    <ClCompile Include="bravolibs\map\fieldparticle.cpp" />
+    <ClCompile Include="bravolibs\map\fieldwaterfall.cpp" />
+    <ClCompile Include="bravolibs\map\fileinfo.cpp" />
+    <ClCompile Include="bravolibs\map\grass.cpp" />
+    <ClCompile Include="bravolibs\map\grassnormal.cpp" />
+    <ClCompile Include="bravolibs\map\gtexture.cpp" />
+    <ClCompile Include="bravolibs\map\planewatereffect.cpp" />
+    <ClCompile Include="bravolibs\map\water.cpp" />
+    <ClCompile Include="bravolibs\map\waterfall.cpp" />
+    <ClCompile Include="bravolibs\effect\CEffectManager.cpp" />
+    <ClCompile Include="bravolibs\effect\effectsystem.cpp" />
+    <ClCompile Include="bravolibs\effect\MixEffectItemSword.cpp" />
+    <ClCompile Include="bravolibs\effect\particle.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBaragosEff.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFDogmaEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFJanadEff.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRugalSkill.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFUrobosEff.cpp" />
+    <ClCompile Include="bravolibs\effect\CEffectBase.cpp" />
+    <ClCompile Include="bravolibs\effect\animsequence.cpp" />
+    <ClCompile Include="bravolibs\effect\billboard.cpp" />
+    <ClCompile Include="bravolibs\effect\CArrowDisplay.cpp" />
+    <ClCompile Include="bravolibs\effect\CArrowStuck.cpp" />
+    <ClCompile Include="bravolibs\effect\CArrowWeapon.cpp" />
+    <ClCompile Include="bravolibs\effect\CBillboardCurve.cpp" />
+    <ClCompile Include="bravolibs\effect\CBillboardLine.cpp" />
+    <ClCompile Include="bravolibs\effect\CCombo2DEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CComboEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CDamageEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CDamageNum.cpp" />
+    <ClCompile Include="bravolibs\effect\CDropEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFAddEffectBase.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFAniWing0.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFArrow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFAvoid.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBallUp.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBeeLineBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBigBubble.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBigNpc0.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBigNpcSkill0.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBigPress.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBizEyeBeam.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBonArcSkill.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBonWarSkill.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBookAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBookCriticalAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBookUp.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBowAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBowDoubleShot.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBowRain.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBowUp.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBubbleCrash.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFBunchStrength.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFCannonEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFCastStone.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFCircleCrash.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFCommonFlySill.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFConAniSkill.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFDarkBomb.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFDarkness.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFDetect.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFEarthBind.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFEldaWeaponItem.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFEmblemFlag.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFEnergy.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFameItem.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFameItemSet.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFastBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEffectModel.cpp" />
+    <ClCompile Include="bravolibs\effect\CEffectTextureManager.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFireArmor.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFireBall.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFireRain.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFireSmack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFireStormSmash.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFireWork.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFootBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFootBowLink.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFootStrength.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFPopoiAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFFruitAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFGageTrans.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFGatherCut.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFGlareBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFGloveDestruction.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFGolemEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFGTEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHandPar.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHealBubble.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHealRainBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHide.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHideSensor.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHolyAppear.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHolyBomb.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFHPSuction.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceBowRain.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceField.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceRain.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceRipBlow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceShiled.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceSpear.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFIceSpire.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFKeepUpPump.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFLandDamage.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFLightning.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFLightStorm.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFMagicDelete.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFMomentHide.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFMouthFire.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFNPCBubble.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFNpcFireBall.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFNpcStoneAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFPossessed.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFPossessedAppear.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFPriestStandAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRandomArrow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRecoveryItem2.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRefreshBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRefreshSword.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRockPress.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRockShield.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRoundFire.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFRoundLight.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFScapmper.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSniperBow.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSonBrush.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSpeacialItem.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSpiritFireSmack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSPSuction.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSrcLink.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFStickAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFStickUp.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFStoneRian.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFStrongSword.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFSwordUp.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFTigerAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFTripleDarkness.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFTripleFire.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFTyneeWave.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFWindBush.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFWing0.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFWoodenSword.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFWrath_Bomb.cpp" />
+    <ClCompile Include="bravolibs\effect\CEFWrathKniteAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CExpDisplay.cpp" />
+    <ClCompile Include="bravolibs\effect\CFade.cpp" />
+    <ClCompile Include="bravolibs\effect\CFadeLoop.cpp" />
+    <ClCompile Include="bravolibs\effect\CFixSizeBillboard.cpp" />
+    <ClCompile Include="bravolibs\effect\CFloatSequence.cpp" />
+    <ClCompile Include="bravolibs\effect\CFlyWeaponBase.cpp" />
+    <ClCompile Include="bravolibs\effect\CFlyWeaponManager.cpp" />
+    <ClCompile Include="bravolibs\effect\CGlow.cpp" />
+    <ClCompile Include="bravolibs\effect\cloak.cpp" />
+    <ClCompile Include="bravolibs\effect\CNPCStickAttack.cpp" />
+    <ClCompile Include="bravolibs\effect\CRenderSurface.cpp" />
+    <ClCompile Include="bravolibs\effect\CScreenBlur.cpp" />
+    <ClCompile Include="bravolibs\effect\CSpellEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CSpotEffect.cpp" />
+    <ClCompile Include="bravolibs\effect\CStringToCode.cpp" />
+    <ClCompile Include="bravolibs\effect\CTail.cpp" />
+    <ClCompile Include="bravolibs\effect\CTargetSurface.cpp" />
+    <ClCompile Include="bravolibs\effect\CTextCommand.cpp" />
+    <ClCompile Include="bravolibs\effect\CTextCommandW.cpp" />
+    <ClCompile Include="bravolibs\effect\CVAniModel.cpp" />
+    <ClCompile Include="bravolibs\effect\CWeatherDrop.cpp" />
+    <ClCompile Include="bravolibs\effect\effectinsect.cpp" />
+    <ClCompile Include="bravolibs\effect\tails.cpp" />
+    <ClCompile Include="bravolibs\effect\timer.cpp" />
+    <ClCompile Include="bravolibs\base\d3dapp.cpp" />
+    <ClCompile Include="bravolibs\base\d3dfont.cpp" />
+    <ClCompile Include="bravolibs\base\d3dutil.cpp" />
+    <ClCompile Include="bravolibs\base\dxutil.cpp" />
+    <ClCompile Include="bravolibs\sound\c3dsound.cpp" />
+    <ClCompile Include="bravolibs\sound\sound.cpp" />
+    <ClCompile Include="bravolibs\sound\sound_manager.cpp" />
+    <ClCompile Include="rocklibs\profile\custom_time.cpp" />
+    <ClCompile Include="rocklibs\profile\Profile.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Chain.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Container.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\EmblemTexManager.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Fontasm.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Fontg.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Fontman.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Input.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\InputDXDevice.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MessengerMemoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PlayerEtcPrc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Render.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Resource.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Rui.CPP" />
+    <ClCompile Include="rocklibs\RockInterface\TextOutputBase.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\UiUtil.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Util.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\WndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Button.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CheckButton.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CImm.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ComboBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\EditBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\FrameWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ImageAni.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ImageBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ListBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ProgressBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\RadioButton.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ScrollBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SlideBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Spin.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\StateButton.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\TextBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\UpGauge.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Wnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Announcement.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\BZoneIN2DEffect.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CArrowLineList.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CBillBoardUIRender.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CharIdRenderer.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CharImgButton.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChatBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChatEditBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChatMainProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChatOutput.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Combo2DTimingEffect.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ComboStepBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ComEffImgBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ComEffProgBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CPlayerPartyInfo.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CReflection.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CSlotDelayProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CTextOutList.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\DlgBalloon.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\FlashFrameWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\FlashWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\FrameTextBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\HelpItemTip.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\HelpStringTip.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemGetButton.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\LimitLenTextBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\LocalEntireMap.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MiniMap.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MLineEditBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\NonPlayerInfoMiniBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\RITextBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Slot.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SysMsgOutput.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\Xprism.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\EssenceWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaMixRWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemEnchantRWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemEnchantWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemSelectPotionWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\NpcChatWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\QuestProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SpellStoneWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\StrengthStoneWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\LoadingWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CharSelectWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ServerListWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\LoginWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\InventoryWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CharCreateWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CharDelWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CharStateWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PlayerInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\BankWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CPartyInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SkillInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SkillOverWriteWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SkillRegistWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CLoginShutter.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MiniGame_Elda.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MiniMapWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\AddEffectMsg.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\BattleZoneWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChantHitBarWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CSocialActWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ExchangeWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\LeagueInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PayItemWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PlayerInfoAddWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\RadioBroadcast.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\StoreWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\UIMsgWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\NumberInputWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CChangeEldaColorRWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CChangeEldaColorWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemRemodelWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemRemodel_SWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemRemodel_FWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemSelectEldaMixWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaMixAWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaDustRWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaDust.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreTitleWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreSetWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreSetBuyWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreSellWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreBuyWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SkillLearnProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SkillLevelUpWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SkillWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SysMsgWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SystemMenuWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\SystemPrintWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CEditSlashProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MPopupMenuWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PartyMemberWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PartyPopupWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PartyInforWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CPAcceptYesNoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CAcryEnchantRWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CAcryEnchantWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemAccEnchant.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemAccEnchantRWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemCreate_SWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemCreate_FWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemCreateWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemExchangeWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemExtractWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemExtractRWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MainMenuWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MSettingTabWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MFriendTabWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MBlockTabWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MGuildTabWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemRepairWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemSkillPotionWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ItemSkillPotionRWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\NonPlayerInfoAddWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\NonPlayerInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\FrontierMainWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\FrontierCreateWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\AbilityUpWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\AbilityUpConfirmWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PetInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PetInventoryWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\PetMainWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChatPartWndList.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MessageBox.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MessageWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ChatBoxWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MCommunityWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MessenNotifyWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MMsgWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MessenMultiChatWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\MessenOneChatWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CColItemPreViewWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CColMapPositionWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CColRegionInfoWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CColRegionListWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\WarehouseWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\OptionWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CWebShopWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CLogWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\AliveWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CGuideWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CArcherBar.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CDelayBarWnd.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\GuildInventoryWndProc.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\ProposeJoinFrontier.cpp" />
+    <ClCompile Include="rocklibs\RockInterface\CompntCommon.cpp" />
+    <ClCompile Include="rocklibs\PickHeightField.cpp" />
+    <ClCompile Include="rocklibs\RockPCH.cpp" />
+    <ClCompile Include="rocklibs\RockWater.cpp" />
+    <ClCompile Include="Squence\CChangeClass.cpp" />
+    <ClCompile Include="Squence\CRotDisplay.cpp" />
+    <ClCompile Include="Squence\CSquenceBase.cpp" />
+    <ClCompile Include="Squence\CSquenceManager.cpp" />
+    <ClCompile Include="Squence\CThreeWayDisplay.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="RockChksum.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="CCloud.cpp" />
+    <ClCompile Include="landpatch.cpp" />
+    <ClCompile Include="landscape.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="MapDataManager.cpp" />
+    <ClCompile Include="quadlist.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="AThread.cpp" />
+    <ClCompile Include="CItemTexLoadThread.cpp" />
+    <ClCompile Include="CLoadingBarThread.cpp" />
+    <ClCompile Include="CLogoDisplayThread.cpp" />
+    <ClCompile Include="CNetProcThread.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="Jpeg.cpp" />
+    <ClCompile Include="RockClient.cpp" />
+    <ClCompile Include="RockClientNet.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="GTimer.cpp" />
+    <ClCompile Include="ListTime.cpp" />
+    <ClCompile Include="UserTime.cpp" />
+    <ClCompile Include="GMCmdDlg.cpp" />
+    <ClCompile Include="PacketTransLogDlg.cpp" />
+    <ClCompile Include="StringManager.cpp" />
+    <ClCompile Include="CRenderer.cpp" />
+    <ClCompile Include="CRenderManager.cpp" />
+    <ClCompile Include="CRenderState.cpp" />
+    <ClCompile Include="CTextureState.cpp" />
+    <ClCompile Include="CIndexList.cpp" />
+    <ClCompile Include="effect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Rockrsc.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brother.h" />
+    <ClInclude Include="CAction.h" />
+    <ClInclude Include="CCollision.h" />
+    <ClInclude Include="CDynamicVertexBuffer.h" />
+    <ClInclude Include="CFunctor.h" />
+    <ClInclude Include="charitem.h" />
+    <ClInclude Include="CLightState.h" />
+    <ClInclude Include="CLogo2DEffect.h" />
+    <ClInclude Include="CNodeSort.h" />
+    <ClInclude Include="CSceneManager.h" />
+    <ClInclude Include="CSetEnv.h" />
+    <ClInclude Include="CSlangFilter.h" />
+    <ClInclude Include="CWebDialog.h" />
+    <ClInclude Include="DelayActList.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="IExplore.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="mobject.h" />
+    <ClInclude Include="NetworkMgr.h" />
+    <ClInclude Include="PacketCrypto.h" />
+    <ClInclude Include="pc.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="UIDataManager.h" />
+    <ClInclude Include="VFileSystem.h" />
+    <ClInclude Include="bravolibs\obj\etcstruct.h" />
+    <ClInclude Include="bravolibs\obj\findway.h" />
+    <ClInclude Include="bravolibs\obj\Inject.h" />
+    <ClInclude Include="bravolibs\obj\objmath.h" />
+    <ClInclude Include="bravolibs\obj\WinLock.h" />
+    <ClInclude Include="bravolibs\obj\animation.h" />
+    <ClInclude Include="bravolibs\obj\model.h" />
+    <ClInclude Include="bravolibs\obj\texture.h" />
+    <ClInclude Include="bravolibs\obj\texturemanager.h" />
+    <ClInclude Include="bravolibs\obj\afterimage_vertex.h" />
+    <ClInclude Include="bravolibs\obj\line_vertex.h" />
+    <ClInclude Include="bravolibs\obj\object_vertex.h" />
+    <ClInclude Include="bravolibs\obj\ActionSystem.h" />
+    <ClInclude Include="bravolibs\obj\CCharImage.h" />
+    <ClInclude Include="bravolibs\obj\CClassView.h" />
+    <ClInclude Include="bravolibs\obj\CFaceExp.h" />
+    <ClInclude Include="bravolibs\obj\character.h" />
+    <ClInclude Include="bravolibs\obj\character_animation.h" />
+    <ClInclude Include="bravolibs\obj\character_item.h" />
+    <ClInclude Include="bravolibs\obj\CharacterAI.h" />
+    <ClInclude Include="bravolibs\obj\CHolyManager.h" />
+    <ClInclude Include="bravolibs\obj\CMantleItem.h" />
+    <ClInclude Include="bravolibs\obj\CNPCImpactTable.h" />
+    <ClInclude Include="bravolibs\obj\EffItemManager.h" />
+    <ClInclude Include="bravolibs\obj\nonplayer.h" />
+    <ClInclude Include="bravolibs\obj\player.h" />
+    <ClInclude Include="bravolibs\obj\player_manager.h" />
+    <ClInclude Include="bravolibs\obj\PlayerNPCDataManager.h" />
+    <ClInclude Include="bravolibs\obj\SkillSystem.h" />
+    <ClInclude Include="bravolibs\obj\SourceDataManager.h" />
+    <ClInclude Include="bravolibs\obj\object.h" />
+    <ClInclude Include="bravolibs\obj\object_manager.h" />
+    <ClInclude Include="bravolibs\obj\define.h" />
+    <ClInclude Include="bravolibs\map\d3dfvf.h" />
+    <ClInclude Include="bravolibs\map\d3drenderobj.h" />
+    <ClInclude Include="bravolibs\map\field.h" />
+    <ClInclude Include="bravolibs\map\fileinfo.h" />
+    <ClInclude Include="bravolibs\map\grass.h" />
+    <ClInclude Include="bravolibs\map\grassnormal.h" />
+    <ClInclude Include="bravolibs\map\gtexture.h" />
+    <ClInclude Include="bravolibs\map\planewatereffect.h" />
+    <ClInclude Include="bravolibs\map\superviseenv.h" />
+    <ClInclude Include="bravolibs\map\water.h" />
+    <ClInclude Include="bravolibs\map\waterfall.h" />
+    <ClInclude Include="bravolibs\effect\CEffectManager.h" />
+    <ClInclude Include="bravolibs\effect\EffectID.h" />
+    <ClInclude Include="bravolibs\effect\effectsystem.h" />
+    <ClInclude Include="bravolibs\effect\MixEffectItemSword.h" />
+    <ClInclude Include="bravolibs\effect\particle.h" />
+    <ClInclude Include="bravolibs\effect\CEFBaragosEff.h" />
+    <ClInclude Include="bravolibs\effect\CEFDogmaEffect.h" />
+    <ClInclude Include="bravolibs\effect\CEFJanadEff.h" />
+    <ClInclude Include="bravolibs\effect\CEFRugalSkill.h" />
+    <ClInclude Include="bravolibs\effect\CEFUrobosEff.h" />
+    <ClInclude Include="bravolibs\effect\CEffectBase.h" />
+    <ClInclude Include="bravolibs\effect\animsequence.h" />
+    <ClInclude Include="bravolibs\effect\billboard.h" />
+    <ClInclude Include="bravolibs\effect\CArrowDisplay.h" />
+    <ClInclude Include="bravolibs\effect\CArrowStuck.h" />
+    <ClInclude Include="bravolibs\effect\CArrowWeapon.h" />
+    <ClInclude Include="bravolibs\effect\CBillboardCurve.h" />
+    <ClInclude Include="bravolibs\effect\CBillboardLine.h" />
+    <ClInclude Include="bravolibs\effect\CCombo2DEffect.h" />
+    <ClInclude Include="bravolibs\effect\CComboEffect.h" />
+    <ClInclude Include="bravolibs\effect\CDamageEffect.h" />
+    <ClInclude Include="bravolibs\effect\CDamageNum.h" />
+    <ClInclude Include="bravolibs\effect\CDropEffect.h" />
+    <ClInclude Include="bravolibs\effect\CEFAddEffectBase.h" />
+    <ClInclude Include="bravolibs\effect\CEFAniWing0.h" />
+    <ClInclude Include="bravolibs\effect\CEFArrow.h" />
+    <ClInclude Include="bravolibs\effect\CEFAvoid.h" />
+    <ClInclude Include="bravolibs\effect\CEFBallUp.h" />
+    <ClInclude Include="bravolibs\effect\CEFBeeLineBow.h" />
+    <ClInclude Include="bravolibs\effect\CEFBigBubble.h" />
+    <ClInclude Include="bravolibs\effect\CEFBigNpc0.h" />
+    <ClInclude Include="bravolibs\effect\CEFBigNpcSkill0.h" />
+    <ClInclude Include="bravolibs\effect\CEFBigPress.h" />
+    <ClInclude Include="bravolibs\effect\CEFBizEyeBeam.h" />
+    <ClInclude Include="bravolibs\effect\CEFBonArcSkill.h" />
+    <ClInclude Include="bravolibs\effect\CEFBonWarSkill.h" />
+    <ClInclude Include="bravolibs\effect\CEFBookAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFBookCriticalAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFBookUp.h" />
+    <ClInclude Include="bravolibs\effect\CEFBowAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFBowDoubleShot.h" />
+    <ClInclude Include="bravolibs\effect\CEFBowRain.h" />
+    <ClInclude Include="bravolibs\effect\CEFBowUp.h" />
+    <ClInclude Include="bravolibs\effect\CEFBubbleCrash.h" />
+    <ClInclude Include="bravolibs\effect\CEFBunchStrength.h" />
+    <ClInclude Include="bravolibs\effect\CEFCannonEffect.h" />
+    <ClInclude Include="bravolibs\effect\CEFCastStone.h" />
+    <ClInclude Include="bravolibs\effect\CEFCircleCrash.h" />
+    <ClInclude Include="bravolibs\effect\CEFCommonFlySill.h" />
+    <ClInclude Include="bravolibs\effect\CEFConAniSkill.h" />
+    <ClInclude Include="bravolibs\effect\CEFDarkBomb.h" />
+    <ClInclude Include="bravolibs\effect\CEFDarkness.h" />
+    <ClInclude Include="bravolibs\effect\CEFDetect.h" />
+    <ClInclude Include="bravolibs\effect\CEFEarthBind.h" />
+    <ClInclude Include="bravolibs\effect\CEFEldaWeaponItem.h" />
+    <ClInclude Include="bravolibs\effect\CEFEmblemFlag.h" />
+    <ClInclude Include="bravolibs\effect\CEFEnergy.h" />
+    <ClInclude Include="bravolibs\effect\CEFFameItem.h" />
+    <ClInclude Include="bravolibs\effect\CEFFameItemSet.h" />
+    <ClInclude Include="bravolibs\effect\CEFFastBow.h" />
+    <ClInclude Include="bravolibs\effect\CEffectModel.h" />
+    <ClInclude Include="bravolibs\effect\CEffectTextureManager.h" />
+    <ClInclude Include="bravolibs\effect\CEFFireArmor.h" />
+    <ClInclude Include="bravolibs\effect\CEFFireBall.h" />
+    <ClInclude Include="bravolibs\effect\CEFFireRain.h" />
+    <ClInclude Include="bravolibs\effect\CEFFireSmack.h" />
+    <ClInclude Include="bravolibs\effect\CEFFireStormSmash.h" />
+    <ClInclude Include="bravolibs\effect\CEFFireWork.h" />
+    <ClInclude Include="bravolibs\effect\CEFFootBow.h" />
+    <ClInclude Include="bravolibs\effect\CEFFootBowLink.h" />
+    <ClInclude Include="bravolibs\effect\CEFFootStrength.h" />
+    <ClInclude Include="bravolibs\effect\CEFFPopoiAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFFruitAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFGageTrans.h" />
+    <ClInclude Include="bravolibs\effect\CEFGatherCut.h" />
+    <ClInclude Include="bravolibs\effect\CEFGlareBow.h" />
+    <ClInclude Include="bravolibs\effect\CEFGloveDestruction.h" />
+    <ClInclude Include="bravolibs\effect\CEFGolemEffect.h" />
+    <ClInclude Include="bravolibs\effect\CEFGTEffect.h" />
+    <ClInclude Include="bravolibs\effect\CEFHandPar.h" />
+    <ClInclude Include="bravolibs\effect\CEFHealBubble.h" />
+    <ClInclude Include="bravolibs\effect\CEFHealRainBow.h" />
+    <ClInclude Include="bravolibs\effect\CEFHide.h" />
+    <ClInclude Include="bravolibs\effect\CEFHideSensor.h" />
+    <ClInclude Include="bravolibs\effect\CEFHolyAppear.h" />
+    <ClInclude Include="bravolibs\effect\CEFHolyBomb.h" />
+    <ClInclude Include="bravolibs\effect\CEFHPSuction.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceBowRain.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceField.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceRain.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceRipBlow.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceShiled.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceSpear.h" />
+    <ClInclude Include="bravolibs\effect\CEFIceSprie.h" />
+    <ClInclude Include="bravolibs\effect\CEFKeepUpPump.h" />
+    <ClInclude Include="bravolibs\effect\CEFLandDamage.h" />
+    <ClInclude Include="bravolibs\effect\CEFLightning.h" />
+    <ClInclude Include="bravolibs\effect\CEFLightStorm.h" />
+    <ClInclude Include="bravolibs\effect\CEFMagicDelete.h" />
+    <ClInclude Include="bravolibs\effect\CEFMomentHide.h" />
+    <ClInclude Include="bravolibs\effect\CEFMouthFire.h" />
+    <ClInclude Include="bravolibs\effect\CEFNPCBubble.h" />
+    <ClInclude Include="bravolibs\effect\CEFNpcFireBall.h" />
+    <ClInclude Include="bravolibs\effect\CEFNpcStoneAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFPossessed.h" />
+    <ClInclude Include="bravolibs\effect\CEFPossessedAppear.h" />
+    <ClInclude Include="bravolibs\effect\CEFPriestStandAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFRandomArrow.h" />
+    <ClInclude Include="bravolibs\effect\CEFRecoveryItem2.h" />
+    <ClInclude Include="bravolibs\effect\CEFRefreshBow.h" />
+    <ClInclude Include="bravolibs\effect\CEFRefreshSword.h" />
+    <ClInclude Include="bravolibs\effect\CEFRockPress.h" />
+    <ClInclude Include="bravolibs\effect\CEFRockShield.h" />
+    <ClInclude Include="bravolibs\effect\CEFRoundFire.h" />
+    <ClInclude Include="bravolibs\effect\CEFRoundLight.h" />
+    <ClInclude Include="bravolibs\effect\CEFScapmper.h" />
+    <ClInclude Include="bravolibs\effect\CEFSniperBow.h" />
+    <ClInclude Include="bravolibs\effect\CEFSonBrush.h" />
+    <ClInclude Include="bravolibs\effect\CEFSpeacialItem.h" />
+    <ClInclude Include="bravolibs\effect\CEFSpiritFireSmack.h" />
+    <ClInclude Include="bravolibs\effect\CEFSPSuction.h" />
+    <ClInclude Include="bravolibs\effect\CEFSrcLink.h" />
+    <ClInclude Include="bravolibs\effect\CEFStickAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFStickUp.h" />
+    <ClInclude Include="bravolibs\effect\CEFStoneRian.h" />
+    <ClInclude Include="bravolibs\effect\CEFStrongSword.h" />
+    <ClInclude Include="bravolibs\effect\CEFSWORDUP.H" />
+    <ClInclude Include="bravolibs\effect\CEFTigerAttack.h" />
+    <ClInclude Include="bravolibs\effect\CEFTripleDarkness.h" />
+    <ClInclude Include="bravolibs\effect\CEFTripleFire.h" />
+    <ClInclude Include="bravolibs\effect\CEFTyneeWave.h" />
+    <ClInclude Include="bravolibs\effect\CEFWindBush.h" />
+    <ClInclude Include="bravolibs\effect\CEFWing0.h" />
+    <ClInclude Include="bravolibs\effect\CEFWoodenSword.h" />
+    <ClInclude Include="bravolibs\effect\CEFWrath_Bomb.h" />
+    <ClInclude Include="bravolibs\effect\CEFWrathKniteAttack.h" />
+    <ClInclude Include="bravolibs\effect\CExpDisplay.h" />
+    <ClInclude Include="bravolibs\effect\CFade.h" />
+    <ClInclude Include="bravolibs\effect\CFadeLoop.h" />
+    <ClInclude Include="bravolibs\effect\CFixSizeBillboard.h" />
+    <ClInclude Include="bravolibs\effect\CFloatSequence.h" />
+    <ClInclude Include="bravolibs\effect\CFlyWeaponBase.h" />
+    <ClInclude Include="bravolibs\effect\CFlyWeaponManager.h" />
+    <ClInclude Include="bravolibs\effect\CGlow.h" />
+    <ClInclude Include="bravolibs\effect\cloak.h" />
+    <ClInclude Include="bravolibs\effect\CNPCStickAttack.h" />
+    <ClInclude Include="bravolibs\effect\CRenderSurface.h" />
+    <ClInclude Include="bravolibs\effect\CScreenBlur.h" />
+    <ClInclude Include="bravolibs\effect\CSpellEffect.h" />
+    <ClInclude Include="bravolibs\effect\CSpotEffect.h" />
+    <ClInclude Include="bravolibs\effect\CStringMap.h" />
+    <ClInclude Include="bravolibs\effect\CStringToCode.h" />
+    <ClInclude Include="bravolibs\effect\CTail.h" />
+    <ClInclude Include="bravolibs\effect\CTargetSurface.h" />
+    <ClInclude Include="bravolibs\effect\CTextCommand.h" />
+    <ClInclude Include="bravolibs\effect\CTextCommandW.h" />
+    <ClInclude Include="bravolibs\effect\CVAniModel.h" />
+    <ClInclude Include="bravolibs\effect\CWeatherDrop.h" />
+    <ClInclude Include="bravolibs\effect\effectinsect.h" />
+    <ClInclude Include="bravolibs\effect\effectvertex.h" />
+    <ClInclude Include="bravolibs\obj\objbase.h" />
+    <ClInclude Include="bravolibs\effect\tails.h" />
+    <ClInclude Include="bravolibs\effect\timer.h" />
+    <ClInclude Include="bravolibs\base\d3dapp.h" />
+    <ClInclude Include="bravolibs\base\d3dbase.h" />
+    <ClInclude Include="bravolibs\base\d3dfont.h" />
+    <ClInclude Include="bravolibs\base\d3dres.h" />
+    <ClInclude Include="bravolibs\base\d3dutil.h" />
+    <ClInclude Include="bravolibs\base\dxutil.h" />
+    <ClInclude Include="bravolibs\network\protocol.h" />
+    <ClInclude Include="bravolibs\sound\c3dsound.h" />
+    <ClInclude Include="bravolibs\sound\sound.h" />
+    <ClInclude Include="bravolibs\sound\sound_manager.h" />
+    <ClInclude Include="rocklibs\profile\custom_time.h" />
+    <ClInclude Include="rocklibs\profile\profile.h" />
+    <ClInclude Include="rocklibs\RockInterface\Chain.h" />
+    <ClInclude Include="rocklibs\RockInterface\Container.h" />
+    <ClInclude Include="rocklibs\RockInterface\Define.h" />
+    <ClInclude Include="rocklibs\RockInterface\DefineHID.h" />
+    <ClInclude Include="rocklibs\RockInterface\DefineTID.h" />
+    <ClInclude Include="rocklibs\RockInterface\DefineWID.h" />
+    <ClInclude Include="rocklibs\RockInterface\EmblemTexManager.h" />
+    <ClInclude Include="rocklibs\RockInterface\Fontasm.h" />
+    <ClInclude Include="rocklibs\RockInterface\Fontg.h" />
+    <ClInclude Include="rocklibs\RockInterface\Fontman.h" />
+    <ClInclude Include="rocklibs\RockInterface\Input.h" />
+    <ClInclude Include="rocklibs\RockInterface\InputDXDevice.h" />
+    <ClInclude Include="rocklibs\RockInterface\MessengerMemoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PartyBaseInfo.h" />
+    <ClInclude Include="rocklibs\RockInterface\PlayerEtcPrc.h" />
+    <ClInclude Include="rocklibs\RockInterface\Render.h" />
+    <ClInclude Include="rocklibs\RockInterface\Resource.h" />
+    <ClInclude Include="rocklibs\RockInterface\Rui.h" />
+    <ClInclude Include="rocklibs\RockInterface\TextOutputBase.h" />
+    <ClInclude Include="rocklibs\RockInterface\UiUtil.h" />
+    <ClInclude Include="rocklibs\RockInterface\Util.h" />
+    <ClInclude Include="rocklibs\RockInterface\WndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\Button.h" />
+    <ClInclude Include="rocklibs\RockInterface\CheckButton.h" />
+    <ClInclude Include="rocklibs\RockInterface\CImm.h" />
+    <ClInclude Include="rocklibs\RockInterface\ComboBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\EditBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\FrameWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\ImageAni.h" />
+    <ClInclude Include="rocklibs\RockInterface\ImageBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\ListBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\ProgressBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\RadioButton.h" />
+    <ClInclude Include="rocklibs\RockInterface\ScrollBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\SlideBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\Spin.h" />
+    <ClInclude Include="rocklibs\RockInterface\StateButton.h" />
+    <ClInclude Include="rocklibs\RockInterface\TextBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\UpGauge.h" />
+    <ClInclude Include="rocklibs\RockInterface\Wnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\Announcement.h" />
+    <ClInclude Include="rocklibs\RockInterface\BZoneIN2DEffect.h" />
+    <ClInclude Include="rocklibs\RockInterface\CArrowLineList.h" />
+    <ClInclude Include="rocklibs\RockInterface\CBillBoardUIRender.h" />
+    <ClInclude Include="rocklibs\RockInterface\CharIdRenderer.h" />
+    <ClInclude Include="rocklibs\RockInterface\CharImgButton.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChatBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChatEditBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChatMainProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChatOutput.h" />
+    <ClInclude Include="rocklibs\RockInterface\Combo2DTimingEffect.h" />
+    <ClInclude Include="rocklibs\RockInterface\ComboStepBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\ComEffImgBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\ComEffProgBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\CPlayerPartyInfo.h" />
+    <ClInclude Include="rocklibs\RockInterface\CReflection.h" />
+    <ClInclude Include="rocklibs\RockInterface\CSlotDelayProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CTextOutList.h" />
+    <ClInclude Include="rocklibs\RockInterface\DlgBalloon.h" />
+    <ClInclude Include="rocklibs\RockInterface\FlashFrameWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\FlashWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\FrameTextBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\HelpItemTip.h" />
+    <ClInclude Include="rocklibs\RockInterface\HelpStringTip.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemGetButton.h" />
+    <ClInclude Include="rocklibs\RockInterface\LimitLenTextBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\LocalEntireMap.h" />
+    <ClInclude Include="rocklibs\RockInterface\MiniMap.h" />
+    <ClInclude Include="rocklibs\RockInterface\MLineEditBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\NonPlayerInfoMiniBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\RITextBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\Slot.h" />
+    <ClInclude Include="rocklibs\RockInterface\SysMsgOutput.h" />
+    <ClInclude Include="rocklibs\RockInterface\Xprism.h" />
+    <ClInclude Include="rocklibs\RockInterface\EssenceWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaMixRWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemEnchantRWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemEnchantWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemSelectPotionWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\NpcChatWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\QuestProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\SpellStoneWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\StrengthStoneWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\LoadingWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CharSelectWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ServerListWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\LoginWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\InventoryWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CharCreateWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CharDelWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CharStateWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\PlayerInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\BankWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CPartyInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\SkillInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\SkillOverWriteWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\SkillRegistWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CLoginShutter.h" />
+    <ClInclude Include="rocklibs\RockInterface\MiniGame_Elda.h" />
+    <ClInclude Include="rocklibs\RockInterface\MiniMapWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\AddEffectMsg.h" />
+    <ClInclude Include="rocklibs\RockInterface\BattleZoneWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChantHitBarWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CSocialActWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\ExchangeWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\LeagueInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PayItemWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\PlayerInfoAddWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\RadioBroadcast.h" />
+    <ClInclude Include="rocklibs\RockInterface\StoreWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\UIMsgWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\NumberInputWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CChangeEldaColorRWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CChangeEldaColorWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemRemodelWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemRemodel_SWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemRemodel_FWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemSelectEldaMixWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaMixAWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaDustRWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaDust.h" />
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreTitleWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreSetWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreSetBuyWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreSellWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreBuyWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\SkillLearnProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\SkillLevelUpWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\SkillWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\SysMsgWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\SystemMenuWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\SystemPrintWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CEditSlashProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\MPopupMenuWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PartyMemberWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PartyPopupWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PartyInforWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CPAcceptYesNoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CAcryEnchantRWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CAcryEnchantWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemAccEnchant.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemAccEnchantRWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemCreate_SWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemCreate_FWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemCreateWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemExchangeWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemExtractWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemExtractRWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\MainMenuWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\MSettingTabWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MFriendTabWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MBlockTabWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MGuildTabWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemRepairWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemSkillPotionWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ItemSkillPotionRWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\NonPlayerInfoAddWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\NonPlayerInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\FrontierMainWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\FrontierCreateWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\AbilityUpWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\AbilityUpConfirmWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PetInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PetInventoryWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\PetMainWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChatPartWndList.h" />
+    <ClInclude Include="rocklibs\RockInterface\MessageBox.h" />
+    <ClInclude Include="rocklibs\RockInterface\MessageWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ChatBoxWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\MCommunityWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MessenNotifyWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MMsgWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MessenMultiChatWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\MessenOneChatWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CColItemPreViewWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CColMapPositionWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CColRegionInfoWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CColRegionListWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\WarehouseWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\OptionWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\CWebShopWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CLogWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\AliveWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CGuideWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\CArcherBar.h" />
+    <ClInclude Include="rocklibs\RockInterface\CDelayBarWnd.h" />
+    <ClInclude Include="rocklibs\RockInterface\GuildInventoryWndProc.h" />
+    <ClInclude Include="rocklibs\RockInterface\ProposeJoinFrontier.h" />
+    <ClInclude Include="rocklibs\RockInterface\CompntCommon.h" />
+    <ClInclude Include="rocklibs\ExceptionHandler.h" />
+    <ClInclude Include="rocklibs\GlobalDefine.h" />
+    <ClInclude Include="rocklibs\HHMWorkDefine.h" />
+    <ClInclude Include="rocklibs\PickHeightField.h" />
+    <ClInclude Include="rocklibs\RockPCH.h" />
+    <ClInclude Include="rocklibs\RockWater.h" />
+    <ClInclude Include="Squence\CChangeClass.h" />
+    <ClInclude Include="Squence\CRotDisplay.h" />
+    <ClInclude Include="Squence\CSquenceBase.h" />
+    <ClInclude Include="Squence\CSquenceManager.h" />
+    <ClInclude Include="Squence\CThreeWayDisplay.h" />
+    <ClInclude Include="CIMEddk.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="RockChksum.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="CCloud.h" />
+    <ClInclude Include="defineMap_ID.h" />
+    <ClInclude Include="landpatch.h" />
+    <ClInclude Include="landscape.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="MapDataManager.h" />
+    <ClInclude Include="quadlist.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="AThread.h" />
+    <ClInclude Include="CItemTexLoadThread.h" />
+    <ClInclude Include="CLoadingBarThread.h" />
+    <ClInclude Include="CLogoDisplayThread.h" />
+    <ClInclude Include="CNetProcThread.h" />
+    <ClInclude Include="HShield.h" />
+    <ClInclude Include="HsUserUtil.h" />
+    <ClInclude Include="NPGameLib.h" />
+    <ClInclude Include="RockClient.h" />
+    <ClInclude Include="GTimer.h" />
+    <ClInclude Include="ListTime.h" />
+    <ClInclude Include="UserTime.h" />
+    <ClInclude Include="GMCmdDlg.h" />
+    <ClInclude Include="PacketTransLogDlg.h" />
+    <ClInclude Include="defineHID_ID.h" />
+    <ClInclude Include="DefineSTR_ID.h" />
+    <ClInclude Include="StringManager.h" />
+    <ClInclude Include="CRenderer.h" />
+    <ClInclude Include="CRenderManager.h" />
+    <ClInclude Include="CRenderState.h" />
+    <ClInclude Include="CTextureState.h" />
+    <ClInclude Include="CIndexList.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="C:\RockDev\Microsoft DX90SDK Update\Include\dmdls.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="iconimg.ico" />
+    <CustomBuild Include="rocklibs\profile\ÇÁ·ÎÆÄÀÏ·¯_ÀÛ¾÷³»¿ë.txt" />
+    <CustomBuild Include="..\..\..\ORockDocs\±âÈ¹ÆÀ°ü¸®\Å×ÀÌºíÆÄÀÏ\Etc\Interface\CBT.txt" />
+    <CustomBuild Include="..\..\..\ORockDocs\ETC\gm_help.txt" />
+    <CustomBuild Include="..\..\..\ORockDocs\±âÈ¹ÆÀ°ü¸®\Å×ÀÌºíÆÄÀÏ\Etc\Interface\HelpTip.txt" />
+    <CustomBuild Include="SeiyaOnline.exe.mainfest">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\ORockDocs\±âÈ¹ÆÀ°ü¸®\Å×ÀÌºíÆÄÀÏ\Etc\Interface\TID.txt" />
+    <CustomBuild Include="work.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

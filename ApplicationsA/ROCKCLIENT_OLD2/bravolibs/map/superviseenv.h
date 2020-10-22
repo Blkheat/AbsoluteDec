@@ -1,0 +1,32 @@
+#ifndef		_____SUPERVISE_ENVIRONMENT_____
+#define		_____SUPERVISE_ENVIRONMENT_____
+
+enum		DIR_WIND
+{
+	DIRW_NONE			=  0,
+	DIRW_NORTH,
+	DIRW_NORTHEAST,
+	DIRW_EAST,
+	DIRW_SOUTHEAST,
+	DIRW_SOUTH,
+	DIRW_SOUTHWEST,
+	DIRW_WEST,
+	DIRW_NORTHWEST,
+};
+
+enum		POWER_WIND
+{
+	POWERW_WEAK			= 0,
+	POWERW_NORMAL,
+	POWERW_STRONG,
+};
+
+class	CSuperviseEnv
+{
+protected:
+	WORD	m_wWindDir;
+	WORD	m_wWindPower;
+};
+
+
+#endif

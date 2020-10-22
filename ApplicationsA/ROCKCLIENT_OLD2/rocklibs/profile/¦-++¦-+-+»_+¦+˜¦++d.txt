@@ -1,0 +1,96 @@
+
+ - 프로파일러 
+
+ 1. 원본 Profiler 수정 (원본 소스는 겜 프로그래밍 젬에서 발췌)
+
+ - 도스 버젼으로 되어 있는 예제 파일의 소스를 수정. 
+
+ - 평균 비율 구하는 공식 수정.
+   원본 : (Old_Value * 0.2) + (New_Value * 0.8) = Average_Value
+   수정 : (Old_Value * 0.5) + (New_Value * 0.5) = Average_Value
+
+ - Profile.log 파일에 화면 내용이 프린트되어 확인 가능. 
+
+
+ 2. 사용법 
+
+ - Profile.h 안의 DO_PROFILE을 define 한다.
+
+ - Profil.c 와 Profile.h, 그리고 시간측정하는 custom_time.c 와 custom_time.h 를
+   프로젝트에 추가시킨다.
+
+ - 프로파일링할 함수의 *.cpp 에 #include "Profile.h" 를 하고 난 다음 ProfileBegin()과 
+   ProfileEnd()로 해당 함수를 감싸주면 수치값을 확인 할 수 있다. 이때 ProfileBegin() 안에
+   들어있는 경우...자동으로 부모의 시간의 빼서 계산이 된다. 
+
+ - 프로그램 내에서 프로파일링할 함수가 있다면 일단 ProfileBegin() 과 ProfileEnd()로 
+   둘러싸야 한다. 그러기 위해서 일단 프로그램의 메인 루프 전체를 둘러싼다. 그리고 나서
+   프로파일링 수치들을 확인하려면 ProfileDumpOutputToBuffer()를 호출해야 한다. 다음은
+   그 예이당...
+
+   ex)
+
+   while (Running)
+   {
+   ProfileBegin("Main");
+
+	ProfileBegin(" App_CreateGroundActor");
+	App_CreateGroundActor(App);
+	ProfileEnd(" App_CreateGroundActor");
+
+
+	ProfileBegin(" ProcessInput");
+	if (ProcessInput(App, ScreenRect) != JE_TRUE)
+   	   PostQuitMessage(0);
+	ProfileEnd(" ProcessInput");
+	
+	ProfileBegin(" App_Update");
+	if (App_Update(App) == JE_FALSE)
+	   break;
+	ProfileEnd(" App_Update");
+
+	ProfileEnd("Main");
+
+	ProfileDumpOutputToBuffer();
+
+	if(PeekMessage(&Msg, NULL, 0, 0, PM_REMOVE))    //non-blocking message check
+	{
+	   if (Msg.message == WM_QUIT) 
+	     break;
+
+	   TranslateMessage(&Msg);
+	   DispatchMessage(&Msg);
+	}
+   }
+
+ - 수치 데이터
+
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name : Main
+Sec : 0.00000 | Ave :   0.4 | Min :   0.0 | max :   0.8 | calls :     1 | Name :  App_CreateGroundActor
+Sec : 0.39185 | Ave :  10.9 | Min :  10.9 | max :  21.8 | calls :     1 | Name :   Terrain
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name :   Player
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name :   Weapon
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name :   EBT
+Sec : 0.00415 | Ave :   0.4 | Min :   0.2 | max :   0.4 | calls :     1 | Name :    EBTMgr_Destroy
+Sec : 0.00317 | Ave :   0.1 | Min :   0.1 | max :   0.2 | calls :    10 | Name :     AUtil_Create
+Sec : 0.79297 | Ave :  44.5 | Min :  44.1 | max :  45.5 | calls :    20 | Name :      Actor_Def
+Sec : 0.45190 | Ave :  24.7 | Min :  21.3 | max :  25.1 | calls :    20 | Name :      Actor
+Sec : 0.00586 | Ave :   0.3 | Min :   0.3 | max :   0.3 | calls :     1 | Name :   Structure
+Sec : 0.00415 | Ave :   1.7 | Min :   0.2 | max :   1.8 | calls :     1 | Name :  ProcessInput
+Sec : 0.00000 | Ave :   0.9 | Min :   0.0 | max :   1.6 | calls :     1 | Name :  App_Update
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name :   jeWorld_Frame
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name :   jeEngine_BeginFrame
+Sec : 0.02783 | Ave :   3.3 | Min :   1.5 | max :   3.5 | calls :     1 | Name :   jeTerrain_RenderThroughCamera
+Sec : 0.00000 | Ave :   0.0 | Min :   0.0 | max :   0.0 | calls :     1 | Name :   Hud
+Sec : 0.08105 | Ave :  25.5 | Min :   4.5 | max :  25.5 | calls :     1 | Name :   jeWorld_Render
+Sec : 0.02905 | Ave :  16.9 | Min :   1.6 | max :  17.0 | calls :     1 | Name :   jeEngine_EndFrame
+
+ Sec : 수행시간 표시.
+ Ave : 전체 수행 시간(한 루프)의 함수가 차지하는 비율의 평균 비율.
+ Min : 전체 수행 시간(한 루프)의 함수가 차지하는 비율의 최소 비율.
+ Max : 전체 수행 시간(한 루프)의 함수가 차지하는 비율의 최대 비율.
+ Calls : 한 루프안에서 해당 함수가 수행된 횟수
+ Name : 함수 이름 
+        * 함수 이름 표시는 ProfileBegin("함수이름")으로 표시가 된다. 위의 표는 상속관계를
+        나타내기 위해서 함수이름 앞에 공란을 두었기 때문에 부모, 자식 관계가 표시 되었다.
+

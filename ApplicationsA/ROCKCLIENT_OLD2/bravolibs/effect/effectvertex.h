@@ -1,0 +1,225 @@
+
+
+#ifndef		__EFFECTVERTEX_H_
+#define		__EFFECTVERTEX_H_
+
+#include <RockPCH.h>
+
+
+
+//#include	"EffectBase.h"
+/*
+struct	CUSTOMVERTEX
+{
+	D3DXVECTOR3		v;
+};
+
+#define D3DFVF_CUSTOMVERTEX (D3DFVF_XYZ)
+
+struct	SPACEVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT       tu, tv;
+};
+
+#define D3DFVF_SPACEVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+//Ground를 만들때 사용할 버텍스 버퍼를 만들기 위한 구조체
+struct	GEOMETRYVERTEX
+{
+	D3DXVECTOR3		v;
+	DWORD			color;
+};
+ 
+#define D3DFVF_GEOMETRYVERTEX (D3DFVF_XYZ|D3DFVF_DIFFUSE)
+*/
+
+// enum eVertexType
+// {
+// 	eVertexType_None,
+// 	eVertexType_DOVERTEX,
+// 	eVertexType_COLORVERTEX,
+// 	eVertexType_SPACEVERTEX,
+// 	eVertexType_INSECTVERTEX,
+// 	eVertexType_BIRDVERTEX,
+// 	eVertexType_BILLBOARDVERTEX,
+// 	eVertexType_VERTEX_XYZ_DIFFUSE_TEX1,
+// 	eVertexType_TAILS_VERTEX,
+// 	eVertexType_OBJECTVERTEX,
+// 	
+// 	eVertexType_COUNT,
+// };
+
+
+// struct	BATCHVERTEX
+// {
+// 	D3DXVECTOR3		v;			// 위치
+// //	D3DXVECTOR3		nv;			// 노말
+// 	DWORD			color;		// 칼라
+// 	FLOAT			tu, tv;		// 텟스쳐 U,V
+// };
+// 
+// //#define	D3DFVF_BATCHVERTEX (D3DFVF_XYZ|D3DFVF_NORMAL|D3DFVF_DIFFUSE|D3DFVF_TEX1 )
+// #define	D3DFVF_BATCHVERTEX (D3DFVF_XYZ|D3DFVF_DIFFUSE|D3DFVF_TEX1 )
+
+#ifdef BATCH_RENDER
+
+struct	DOTVERTEX
+{
+	D3DXVECTOR3		v;
+};
+
+#define D3DFVF_DOTVERTEX (D3DFVF_XYZ)
+
+
+struct	COLORVERTEX
+{
+	D3DXVECTOR3		v;
+	DWORD			color;
+};
+
+#define D3DFVF_COLORVERTEX (D3DFVF_XYZ|D3DFVF_DIFFUSE)
+
+
+struct	SPACEVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT       tu, tv;
+};
+
+#define D3DFVF_SPACEVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+struct	INSECTVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT		tu, tv;
+};
+
+#define D3DFVF_INSECTVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+struct	BIRDVERTEX
+{
+	D3DXVECTOR3		v;
+	D3DXVECTOR3		nv;
+	FLOAT		tu, tv;
+	
+};
+
+#define D3DFVF_BIRDVERTEX (D3DFVF_XYZ|D3DFVF_NORMAL|D3DFVF_TEX1)
+
+
+struct	BILLBOARDVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT		tu, tv;
+};
+
+#define D3DFVF_BILLBOARDVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+struct	VERTEX_XYZ_DIFFUSE_TEX1
+{
+	D3DXVECTOR3		v;
+	DWORD			color;
+	FLOAT			tu, tv;
+};
+
+#define	D3DFVF_VERTEX_XYZ_DIFFUSE_TEX1 (D3DFVF_XYZ|D3DFVF_DIFFUSE|D3DFVF_TEX1 )
+
+
+struct	TAILS_VERTEX
+{
+	D3DXVECTOR3		v;
+	DWORD			color;	  
+    FLOAT			tu, tv;
+};
+
+#define	D3DFVF_TAILS_VERTEX ( D3DFVF_XYZ|D3DFVF_DIFFUSE|D3DFVF_TEX1 )
+
+#else	//	BATCH_RENDER
+
+struct	DOTVERTEX
+{
+	D3DXVECTOR3		v;
+};
+
+#define D3DFVF_DOTVERTEX (D3DFVF_XYZ)
+
+
+struct	COLORVERTEX
+{
+	D3DXVECTOR3		v;
+	DWORD			color;
+};
+ 
+#define D3DFVF_COLORVERTEX (D3DFVF_XYZ|D3DFVF_DIFFUSE)
+
+
+struct	SPACEVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT       tu, tv;
+};
+
+#define D3DFVF_SPACEVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+struct	INSECTVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT		tu, tv;
+};
+
+#define D3DFVF_INSECTVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+struct	BIRDVERTEX
+{
+	D3DXVECTOR3		v;
+	D3DXVECTOR3		nv;
+	FLOAT		tu, tv;
+
+};
+
+#define D3DFVF_BIRDVERTEX (D3DFVF_XYZ|D3DFVF_NORMAL|D3DFVF_TEX1)
+
+
+struct	BILLBOARDVERTEX
+{
+	D3DXVECTOR3		v;
+	FLOAT		tu, tv;
+};
+
+#define D3DFVF_BILLBOARDVERTEX (D3DFVF_XYZ|D3DFVF_TEX1)
+
+
+struct	VERTEX_XYZ_DIFFUSE_TEX1
+{
+	D3DXVECTOR3		position;
+	DWORD			color;
+	FLOAT			tu, tv;
+};
+
+#define	D3DFVF_VERTEX_XYZ_DIFFUSE_TEX1 (D3DFVF_XYZ|D3DFVF_DIFFUSE|D3DFVF_TEX1 )
+
+
+
+struct	TAILS_VERTEX
+{
+	float	x, y, z;
+	DWORD	color;	  
+    float	u, v;
+};
+
+#define	D3DFVF_TAILS_VERTEX ( D3DFVF_XYZ|D3DFVF_DIFFUSE|D3DFVF_TEX1 )
+
+#endif	//	BATCH_RENDER
+
+#endif
+
+
+
+

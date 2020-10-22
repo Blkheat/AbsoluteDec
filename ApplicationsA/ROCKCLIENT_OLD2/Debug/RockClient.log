@@ -1,0 +1,962 @@
+﻿Build started 10/21/2020 8:34:55 PM.
+     1>Project "C:\Users\Administrator\Desktop\G&M\Originals\RockClient\ApplicationsA\ROCKCLIENT_OLD2\RockClient.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\RockClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /I..\..\..\RockBase\Include /I..\..\Include /I.\bravolibs /I.\rocklibs /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D USING_ROCKBASE_DLL /D STRICT /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt brother.cpp CAction.cpp CCollision.cpp CDynamicVertexBuffer.cpp charitem.cpp CLightState.cpp CLogo2DEffect.cpp CNodeSort.cpp CSceneManager.cpp CSetEnv.cpp CSlangFilter.cpp CWebDialog.cpp DelayActList.cpp global.cpp md5.cpp mobject.cpp NetworkMgr.cpp PacketCrypto.cpp pc.cpp UIDataManager.cpp VFileSystem.cpp bravolibs\obj\findway.cpp bravolibs\obj\Inject.cpp bravolibs\obj\objmath.cpp bravolibs\obj\path_find.cpp bravolibs\obj\WinLock.cpp bravolibs\obj\animation.cpp bravolibs\obj\model.cpp bravolibs\obj\texture.cpp bravolibs\obj\texturemanager.cpp bravolibs\obj\ActionSystem.cpp bravolibs\obj\CCharImage.cpp bravolibs\obj\CClassView.cpp bravolibs\obj\CFaceExp.cpp bravolibs\obj\character.cpp bravolibs\obj\character_animation.cpp bravolibs\obj\character_item.cpp bravolibs\obj\CharacterAI.cpp bravolibs\obj\CHolyManager.cpp bravolibs\obj\CMantleItem.cpp bravolibs\obj\CNPCImpactTable.cpp bravolibs\obj\EffItemManager.cpp bravolibs\obj\nonplayer.cpp bravolibs\obj\player.cpp bravolibs\obj\player_manager.cpp bravolibs\obj\PlayerNPCDataManager.cpp bravolibs\obj\SkillSystem.cpp bravolibs\obj\SourceDataManager.cpp bravolibs\obj\object.cpp bravolibs\obj\object_manager.cpp bravolibs\map\d3drenderobj.cpp bravolibs\map\field.cpp bravolibs\map\fieldattr.cpp bravolibs\map\fieldgeomedit.cpp bravolibs\map\fieldgrass.cpp bravolibs\map\fieldmapping.cpp bravolibs\map\fieldmultimap.cpp bravolibs\map\fieldnpc.cpp bravolibs\map\fieldobj.cpp bravolibs\map\fieldparticle.cpp bravolibs\map\fieldwaterfall.cpp bravolibs\map\fileinfo.cpp bravolibs\map\grass.cpp bravolibs\map\grassnormal.cpp bravolibs\map\gtexture.cpp bravolibs\map\planewatereffect.cpp bravolibs\map\water.cpp bravolibs\map\waterfall.cpp bravolibs\effect\CEffectManager.cpp bravolibs\effect\effectsystem.cpp bravolibs\effect\MixEffectItemSword.cpp bravolibs\effect\particle.cpp bravolibs\effect\CEFBaragosEff.cpp bravolibs\effect\CEFDogmaEffect.cpp bravolibs\effect\CEFJanadEff.cpp bravolibs\effect\CEFRugalSkill.cpp bravolibs\effect\CEFUrobosEff.cpp bravolibs\effect\CEffectBase.cpp bravolibs\effect\animsequence.cpp bravolibs\effect\billboard.cpp bravolibs\effect\CArrowDisplay.cpp bravolibs\effect\CArrowStuck.cpp bravolibs\effect\CArrowWeapon.cpp bravolibs\effect\CBillboardCurve.cpp bravolibs\effect\CBillboardLine.cpp bravolibs\effect\CCombo2DEffect.cpp bravolibs\effect\CComboEffect.cpp bravolibs\effect\CDamageEffect.cpp bravolibs\effect\CDamageNum.cpp bravolibs\effect\CDropEffect.cpp bravolibs\effect\CEFAddEffectBase.cpp bravolibs\effect\CEFAniWing0.cpp bravolibs\effect\CEFArrow.cpp bravolibs\effect\CEFAvoid.cpp bravolibs\effect\CEFBallUp.cpp bravolibs\effect\CEFBeeLineBow.cpp bravolibs\effect\CEFBigBubble.cpp bravolibs\effect\CEFBigNpc0.cpp bravolibs\effect\CEFBigNpcSkill0.cpp bravolibs\effect\CEFBigPress.cpp bravolibs\effect\CEFBizEyeBeam.cpp bravolibs\effect\CEFBonArcSkill.cpp bravolibs\effect\CEFBonWarSkill.cpp bravolibs\effect\CEFBookAttack.cpp bravolibs\effect\CEFBookCriticalAttack.cpp bravolibs\effect\CEFBookUp.cpp bravolibs\effect\CEFBowAttack.cpp bravolibs\effect\CEFBowDoubleShot.cpp bravolibs\effect\CEFBowRain.cpp bravolibs\effect\CEFBowUp.cpp bravolibs\effect\CEFBubbleCrash.cpp bravolibs\effect\CEFBunchStrength.cpp bravolibs\effect\CEFCannonEffect.cpp bravolibs\effect\CEFCastStone.cpp bravolibs\effect\CEFCircleCrash.cpp bravolibs\effect\CEFCommonFlySill.cpp bravolibs\effect\CEFConAniSkill.cpp bravolibs\effect\CEFDarkBomb.cpp bravolibs\effect\CEFDarkness.cpp bravolibs\effect\CEFDetect.cpp bravolibs\effect\CEFEarthBind.cpp bravolibs\effect\CEFEldaWeaponItem.cpp bravolibs\effect\CEFEmblemFlag.cpp bravolibs\effect\CEFEnergy.cpp bravolibs\effect\CEFFameItem.cpp bravolibs\effect\CEFFameItemSet.cpp bravolibs\effect\CEFFastBow.cpp bravolibs\effect\CEffectModel.cpp bravolibs\effect\CEffectTextureManager.cpp bravolibs\effect\CEFFireArmor.cpp bravolibs\effect\CEFFireBall.cpp bravolibs\effect\CEFFireRain.cpp bravolibs\effect\CEFFireSmack.cpp bravolibs\effect\CEFFireStormSmash.cpp bravolibs\effect\CEFFireWork.cpp bravolibs\effect\CEFFootBow.cpp bravolibs\effect\CEFFootBowLink.cpp bravolibs\effect\CEFFootStrength.cpp bravolibs\effect\CEFFPopoiAttack.cpp bravolibs\effect\CEFFruitAttack.cpp bravolibs\effect\CEFGageTrans.cpp bravolibs\effect\CEFGatherCut.cpp bravolibs\effect\CEFGlareBow.cpp bravolibs\effect\CEFGloveDestruction.cpp bravolibs\effect\CEFGolemEffect.cpp bravolibs\effect\CEFGTEffect.cpp bravolibs\effect\CEFHandPar.cpp bravolibs\effect\CEFHealBubble.cpp bravolibs\effect\CEFHealRainBow.cpp bravolibs\effect\CEFHide.cpp bravolibs\effect\CEFHideSensor.cpp bravolibs\effect\CEFHolyAppear.cpp bravolibs\effect\CEFHolyBomb.cpp bravolibs\effect\CEFHPSuction.cpp bravolibs\effect\CEFIceBowRain.cpp bravolibs\effect\CEFIceField.cpp bravolibs\effect\CEFIceRain.cpp bravolibs\effect\CEFIceRipBlow.cpp bravolibs\effect\CEFIceShiled.cpp bravolibs\effect\CEFIceSpear.cpp bravolibs\effect\CEFIceSpire.cpp bravolibs\effect\CEFKeepUpPump.cpp bravolibs\effect\CEFLandDamage.cpp bravolibs\effect\CEFLightning.cpp bravolibs\effect\CEFLightStorm.cpp bravolibs\effect\CEFMagicDelete.cpp bravolibs\effect\CEFMomentHide.cpp bravolibs\effect\CEFMouthFire.cpp bravolibs\effect\CEFNPCBubble.cpp bravolibs\effect\CEFNpcFireBall.cpp bravolibs\effect\CEFNpcStoneAttack.cpp bravolibs\effect\CEFPossessed.cpp bravolibs\effect\CEFPossessedAppear.cpp bravolibs\effect\CEFPriestStandAttack.cpp bravolibs\effect\CEFRandomArrow.cpp bravolibs\effect\CEFRecoveryItem2.cpp bravolibs\effect\CEFRefreshBow.cpp bravolibs\effect\CEFRefreshSword.cpp bravolibs\effect\CEFRockPress.cpp bravolibs\effect\CEFRockShield.cpp bravolibs\effect\CEFRoundFire.cpp bravolibs\effect\CEFRoundLight.cpp bravolibs\effect\CEFScapmper.cpp bravolibs\effect\CEFSniperBow.cpp bravolibs\effect\CEFSonBrush.cpp bravolibs\effect\CEFSpeacialItem.cpp bravolibs\effect\CEFSpiritFireSmack.cpp bravolibs\effect\CEFSPSuction.cpp bravolibs\effect\CEFSrcLink.cpp bravolibs\effect\CEFStickAttack.cpp bravolibs\effect\CEFStickUp.cpp bravolibs\effect\CEFStoneRian.cpp bravolibs\effect\CEFStrongSword.cpp bravolibs\effect\CEFSwordUp.cpp bravolibs\effect\CEFTigerAttack.cpp bravolibs\effect\CEFTripleDarkness.cpp bravolibs\effect\CEFTripleFire.cpp bravolibs\effect\CEFTyneeWave.cpp bravolibs\effect\CEFWindBush.cpp bravolibs\effect\CEFWing0.cpp bravolibs\effect\CEFWoodenSword.cpp bravolibs\effect\CEFWrath_Bomb.cpp bravolibs\effect\CEFWrathKniteAttack.cpp bravolibs\effect\CExpDisplay.cpp bravolibs\effect\CFade.cpp bravolibs\effect\CFadeLoop.cpp bravolibs\effect\CFixSizeBillboard.cpp bravolibs\effect\CFloatSequence.cpp bravolibs\effect\CFlyWeaponBase.cpp bravolibs\effect\CFlyWeaponManager.cpp bravolibs\effect\CGlow.cpp bravolibs\effect\cloak.cpp bravolibs\effect\CNPCStickAttack.cpp bravolibs\effect\CRenderSurface.cpp bravolibs\effect\CScreenBlur.cpp bravolibs\effect\CSpellEffect.cpp bravolibs\effect\CSpotEffect.cpp bravolibs\effect\CStringToCode.cpp bravolibs\effect\CTail.cpp bravolibs\effect\CTargetSurface.cpp bravolibs\effect\CTextCommand.cpp bravolibs\effect\CTextCommandW.cpp bravolibs\effect\CVAniModel.cpp bravolibs\effect\CWeatherDrop.cpp bravolibs\effect\effectinsect.cpp bravolibs\effect\tails.cpp bravolibs\effect\timer.cpp bravolibs\base\d3dapp.cpp bravolibs\base\d3dfont.cpp bravolibs\base\d3dutil.cpp bravolibs\base\dxutil.cpp bravolibs\sound\c3dsound.cpp bravolibs\sound\sound.cpp bravolibs\sound\sound_manager.cpp rocklibs\profile\custom_time.cpp rocklibs\profile\Profile.cpp rocklibs\RockInterface\Chain.cpp rocklibs\RockInterface\Container.cpp rocklibs\RockInterface\EmblemTexManager.cpp rocklibs\RockInterface\Fontasm.cpp rocklibs\RockInterface\Fontg.cpp rocklibs\RockInterface\Fontman.cpp rocklibs\RockInterface\Input.cpp rocklibs\RockInterface\InputDXDevice.cpp rocklibs\RockInterface\MessengerMemoWnd.cpp rocklibs\RockInterface\PlayerEtcPrc.cpp rocklibs\RockInterface\Render.cpp rocklibs\RockInterface\Resource.cpp rocklibs\RockInterface\Rui.CPP rocklibs\RockInterface\TextOutputBase.cpp rocklibs\RockInterface\UiUtil.cpp rocklibs\RockInterface\Util.cpp rocklibs\RockInterface\WndProc.cpp rocklibs\RockInterface\Button.cpp rocklibs\RockInterface\CheckButton.cpp rocklibs\RockInterface\CImm.cpp rocklibs\RockInterface\ComboBox.cpp rocklibs\RockInterface\EditBox.cpp rocklibs\RockInterface\FrameWnd.cpp rocklibs\RockInterface\ImageAni.cpp rocklibs\RockInterface\ImageBox.cpp rocklibs\RockInterface\ListBox.cpp rocklibs\RockInterface\ProgressBar.cpp rocklibs\RockInterface\RadioButton.cpp rocklibs\RockInterface\ScrollBar.cpp rocklibs\RockInterface\SlideBar.cpp rocklibs\RockInterface\Spin.cpp rocklibs\RockInterface\StateButton.cpp rocklibs\RockInterface\TextBox.cpp rocklibs\RockInterface\UpGauge.cpp rocklibs\RockInterface\Wnd.cpp rocklibs\RockInterface\Announcement.cpp rocklibs\RockInterface\BZoneIN2DEffect.cpp rocklibs\RockInterface\CArrowLineList.cpp rocklibs\RockInterface\CBillBoardUIRender.cpp rocklibs\RockInterface\CharIdRenderer.cpp rocklibs\RockInterface\CharImgButton.cpp rocklibs\RockInterface\ChatBox.cpp rocklibs\RockInterface\ChatEditBox.cpp rocklibs\RockInterface\ChatMainProc.cpp rocklibs\RockInterface\ChatOutput.cpp rocklibs\RockInterface\Combo2DTimingEffect.cpp rocklibs\RockInterface\ComboStepBar.cpp rocklibs\RockInterface\ComEffImgBox.cpp rocklibs\RockInterface\ComEffProgBar.cpp rocklibs\RockInterface\CPlayerPartyInfo.cpp rocklibs\RockInterface\CReflection.cpp rocklibs\RockInterface\CSlotDelayProc.cpp rocklibs\RockInterface\CTextOutList.cpp rocklibs\RockInterface\DlgBalloon.cpp rocklibs\RockInterface\FlashFrameWnd.cpp rocklibs\RockInterface\FlashWnd.cpp rocklibs\RockInterface\FrameTextBox.cpp rocklibs\RockInterface\HelpItemTip.cpp rocklibs\RockInterface\HelpStringTip.cpp rocklibs\RockInterface\ItemGetButton.cpp rocklibs\RockInterface\LimitLenTextBox.cpp rocklibs\RockInterface\LocalEntireMap.cpp rocklibs\RockInterface\MiniMap.cpp rocklibs\RockInterface\MLineEditBox.cpp rocklibs\RockInterface\NonPlayerInfoMiniBar.cpp rocklibs\RockInterface\RITextBox.cpp rocklibs\RockInterface\Slot.cpp rocklibs\RockInterface\SysMsgOutput.cpp rocklibs\RockInterface\Xprism.cpp rocklibs\RockInterface\EssenceWndProc.cpp rocklibs\RockInterface\ItemEldaMixRWndProc.cpp rocklibs\RockInterface\ItemEnchantRWndProc.cpp rocklibs\RockInterface\ItemEnchantWndProc.cpp rocklibs\RockInterface\ItemSelectPotionWndProc.cpp rocklibs\RockInterface\NpcChatWnd.cpp rocklibs\RockInterface\QuestProc.cpp rocklibs\RockInterface\SpellStoneWndProc.cpp rocklibs\RockInterface\StrengthStoneWndProc.cpp rocklibs\RockInterface\LoadingWndProc.cpp rocklibs\RockInterface\CharSelectWndProc.cpp rocklibs\RockInterface\ServerListWndProc.cpp rocklibs\RockInterface\LoginWndProc.cpp rocklibs\RockInterface\InventoryWndProc.cpp rocklibs\RockInterface\CharCreateWndProc.cpp rocklibs\RockInterface\CharDelWndProc.cpp rocklibs\RockInterface\CharStateWndProc.cpp rocklibs\RockInterface\PlayerInfoWnd.cpp rocklibs\RockInterface\BankWndProc.cpp rocklibs\RockInterface\CPartyInfoWnd.cpp rocklibs\RockInterface\SkillInfoWnd.cpp rocklibs\RockInterface\SkillOverWriteWnd.cpp rocklibs\RockInterface\SkillRegistWnd.cpp rocklibs\RockInterface\CLoginShutter.cpp rocklibs\RockInterface\MiniGame_Elda.cpp rocklibs\RockInterface\MiniMapWndProc.cpp rocklibs\RockInterface\AddEffectMsg.cpp rocklibs\RockInterface\BattleZoneWndProc.cpp rocklibs\RockInterface\ChantHitBarWnd.cpp rocklibs\RockInterface\CSocialActWnd.cpp rocklibs\RockInterface\ExchangeWndProc.cpp rocklibs\RockInterface\LeagueInfoWnd.cpp rocklibs\RockInterface\PayItemWndProc.cpp rocklibs\RockInterface\PlayerInfoAddWnd.cpp rocklibs\RockInterface\RadioBroadcast.cpp rocklibs\RockInterface\StoreWndProc.cpp rocklibs\RockInterface\UIMsgWnd.cpp rocklibs\RockInterface\NumberInputWnd.cpp rocklibs\RockInterface\CChangeEldaColorRWnd.cpp rocklibs\RockInterface\CChangeEldaColorWnd.cpp rocklibs\RockInterface\ItemRemodelWndProc.cpp rocklibs\RockInterface\ItemRemodel_SWndProc.cpp rocklibs\RockInterface\ItemRemodel_FWndProc.cpp rocklibs\RockInterface\ItemSelectEldaMixWndProc.cpp rocklibs\RockInterface\ItemEldaMixAWndProc.cpp rocklibs\RockInterface\ItemEldaDustRWndProc.cpp rocklibs\RockInterface\ItemEldaDust.cpp rocklibs\RockInterface\CUserStoreTitleWnd.cpp rocklibs\RockInterface\CUserStoreSetWnd.cpp rocklibs\RockInterface\CUserStoreSetBuyWnd.cpp rocklibs\RockInterface\CUserStoreSellWnd.cpp rocklibs\RockInterface\CUserStoreBuyWnd.cpp rocklibs\RockInterface\SkillLearnProc.cpp rocklibs\RockInterface\SkillLevelUpWnd.cpp rocklibs\RockInterface\SkillWndProc.cpp rocklibs\RockInterface\SysMsgWndProc.cpp rocklibs\RockInterface\SystemMenuWndProc.cpp rocklibs\RockInterface\SystemPrintWnd.cpp rocklibs\RockInterface\CEditSlashProc.cpp rocklibs\RockInterface\MPopupMenuWnd.cpp rocklibs\RockInterface\PartyMemberWnd.cpp rocklibs\RockInterface\PartyPopupWnd.cpp rocklibs\RockInterface\PartyInforWnd.cpp rocklibs\RockInterface\CPAcceptYesNoWnd.cpp rocklibs\RockInterface\CAcryEnchantRWnd.cpp rocklibs\RockInterface\CAcryEnchantWnd.cpp rocklibs\RockInterface\ItemAccEnchant.cpp rocklibs\RockInterface\ItemAccEnchantRWndProc.cpp rocklibs\RockInterface\ItemCreate_SWndProc.cpp rocklibs\RockInterface\ItemCreate_FWndProc.cpp rocklibs\RockInterface\ItemCreateWndProc.cpp rocklibs\RockInterface\ItemExchangeWndProc.cpp rocklibs\RockInterface\ItemExtractWndProc.cpp rocklibs\RockInterface\ItemExtractRWndProc.cpp rocklibs\RockInterface\MainMenuWndProc.cpp rocklibs\RockInterface\MSettingTabWnd.cpp rocklibs\RockInterface\MFriendTabWnd.cpp rocklibs\RockInterface\MBlockTabWnd.cpp rocklibs\RockInterface\MGuildTabWnd.cpp rocklibs\RockInterface\ItemRepairWndProc.cpp rocklibs\RockInterface\ItemSkillPotionWndProc.cpp rocklibs\RockInterface\ItemSkillPotionRWndProc.cpp rocklibs\RockInterface\NonPlayerInfoAddWnd.cpp rocklibs\RockInterface\NonPlayerInfoWnd.cpp rocklibs\RockInterface\FrontierMainWndProc.cpp rocklibs\RockInterface\FrontierCreateWnd.cpp rocklibs\RockInterface\AbilityUpWndProc.cpp rocklibs\RockInterface\AbilityUpConfirmWnd.cpp rocklibs\RockInterface\PetInfoWnd.cpp rocklibs\RockInterface\PetInventoryWnd.cpp rocklibs\RockInterface\PetMainWndProc.cpp rocklibs\RockInterface\ChatPartWndList.cpp rocklibs\RockInterface\MessageBox.cpp rocklibs\RockInterface\MessageWndProc.cpp rocklibs\RockInterface\ChatBoxWndProc.cpp rocklibs\RockInterface\MCommunityWnd.cpp rocklibs\RockInterface\MessenNotifyWnd.cpp rocklibs\RockInterface\MMsgWnd.cpp rocklibs\RockInterface\MessenMultiChatWnd.cpp rocklibs\RockInterface\MessenOneChatWnd.cpp rocklibs\RockInterface\CColItemPreViewWnd.cpp rocklibs\RockInterface\CColMapPositionWnd.cpp rocklibs\RockInterface\CColRegionInfoWnd.cpp rocklibs\RockInterface\CColRegionListWnd.cpp rocklibs\RockInterface\WarehouseWndProc.cpp rocklibs\RockInterface\OptionWndProc.cpp rocklibs\RockInterface\CWebShopWnd.cpp rocklibs\RockInterface\CLogWnd.cpp rocklibs\RockInterface\AliveWnd.cpp rocklibs\RockInterface\CGuideWnd.cpp rocklibs\RockInterface\CArcherBar.cpp rocklibs\RockInterface\CDelayBarWnd.cpp rocklibs\RockInterface\GuildInventoryWndProc.cpp rocklibs\RockInterface\ProposeJoinFrontier.cpp rocklibs\RockInterface\CompntCommon.cpp rocklibs\PickHeightField.cpp rocklibs\RockPCH.cpp rocklibs\RockWater.cpp Squence\CChangeClass.cpp Squence\CRotDisplay.cpp Squence\CSquenceBase.cpp Squence\CSquenceManager.cpp Squence\CThreeWayDisplay.cpp npc.cpp RockChksum.cpp camera.cpp CCloud.cpp landpatch.cpp landscape.cpp map.cpp MapDataManager.cpp quadlist.cpp skybox.cpp AThread.cpp CItemTexLoadThread.cpp CLoadingBarThread.cpp CLogoDisplayThread.cpp CNetProcThread.cpp display.cpp Jpeg.cpp RockClient.cpp RockClientNet.cpp WinMain.cpp GTimer.cpp ListTime.cpp UserTime.cpp GMCmdDlg.cpp PacketTransLogDlg.cpp StringManager.cpp CRenderer.cpp CRenderManager.cpp CRenderState.cpp CTextureState.cpp CIndexList.cpp effect.cpp
+         effect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CIndexList.cpp
+         CTextureState.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CRenderState.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CRenderManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CRenderer.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         StringManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PacketTransLogDlg.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         GMCmdDlg.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         UserTime.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ListTime.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         GTimer.cpp
+         WinMain.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RockClientNet.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RockClient.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Jpeg.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         display.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CNetProcThread.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CLogoDisplayThread.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CLoadingBarThread.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CItemTexLoadThread.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         AThread.cpp
+         skybox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         quadlist.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MapDataManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         map.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         landscape.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         landpatch.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CCloud.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         camera.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RockChksum.cpp
+         npc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CThreeWayDisplay.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSquenceManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSquenceBase.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CRotDisplay.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CChangeClass.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RockWater.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RockPCH.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PickHeightField.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CompntCommon.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ProposeJoinFrontier.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         GuildInventoryWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CDelayBarWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CArcherBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CGuideWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         AliveWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CLogWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CWebShopWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         OptionWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         WarehouseWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CColRegionListWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CColRegionInfoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CColMapPositionWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CColItemPreViewWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MessenOneChatWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MessenMultiChatWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MMsgWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MessenNotifyWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MCommunityWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         ChatBoxWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MessageWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MessageBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ChatPartWndList.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PetMainWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PetInventoryWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PetInfoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         AbilityUpConfirmWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         AbilityUpWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         FrontierCreateWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         FrontierMainWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         NonPlayerInfoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         NonPlayerInfoAddWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemSkillPotionRWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemSkillPotionWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemRepairWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MGuildTabWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MBlockTabWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MFriendTabWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MSettingTabWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         MainMenuWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemExtractRWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemExtractWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemExchangeWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemCreateWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemCreate_FWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemCreate_SWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemAccEnchantRWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemAccEnchant.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CAcryEnchantWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CAcryEnchantRWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CPAcceptYesNoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PartyInforWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PartyPopupWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PartyMemberWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MPopupMenuWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEditSlashProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SystemPrintWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SystemMenuWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SysMsgWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         SkillWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SkillLevelUpWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SkillLearnProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CUserStoreBuyWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CUserStoreSellWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CUserStoreSetBuyWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CUserStoreSetWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CUserStoreTitleWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemEldaDust.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemEldaDustRWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemEldaMixAWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemSelectEldaMixWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemRemodel_FWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemRemodel_SWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemRemodelWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CChangeEldaColorWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CChangeEldaColorRWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         NumberInputWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         UIMsgWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         StoreWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         RadioBroadcast.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PlayerInfoAddWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PayItemWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         LeagueInfoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ExchangeWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSocialActWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ChantHitBarWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         BattleZoneWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         AddEffectMsg.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MiniMapWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MiniGame_Elda.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CLoginShutter.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SkillRegistWnd.cpp
+         SkillOverWriteWnd.cpp
+         SkillInfoWnd.cpp
+         CPartyInfoWnd.cpp
+         BankWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PlayerInfoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CharStateWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CharDelWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CharCreateWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         InventoryWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         LoginWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ServerListWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CharSelectWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         LoadingWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         StrengthStoneWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SpellStoneWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         QuestProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         NpcChatWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemSelectPotionWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemEnchantWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemEnchantRWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemEldaMixRWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         EssenceWndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Xprism.cpp
+         SysMsgOutput.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Slot.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RITextBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         NonPlayerInfoMiniBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         MLineEditBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MiniMap.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         LocalEntireMap.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         LimitLenTextBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ItemGetButton.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         HelpStringTip.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         HelpItemTip.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         FrameTextBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         FlashWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         FlashFrameWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         DlgBalloon.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CTextOutList.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSlotDelayProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CReflection.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CPlayerPartyInfo.cpp
+         ComEffProgBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ComEffImgBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ComboStepBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Combo2DTimingEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ChatOutput.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         ChatMainProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ChatEditBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ChatBox.cpp
+         CharImgButton.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CharIdRenderer.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CBillBoardUIRender.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CArrowLineList.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         BZoneIN2DEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Announcement.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Wnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         UpGauge.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         TextBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         StateButton.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Spin.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SlideBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ScrollBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         RadioButton.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ProgressBar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ListBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ImageBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         ImageAni.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         FrameWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         EditBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ComboBox.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CImm.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CheckButton.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Button.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         WndProc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Util.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         UiUtil.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         TextOutputBase.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Rui.CPP
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Resource.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Render.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PlayerEtcPrc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MessengerMemoWnd.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         InputDXDevice.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Input.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Fontman.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Fontg.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         Fontasm.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         EmblemTexManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Container.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Chain.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Profile.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         custom_time.cpp
+         sound_manager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         sound.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         c3dsound.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         dxutil.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         d3dutil.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         d3dfont.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         d3dapp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         timer.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         tails.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         effectinsect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CWeatherDrop.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CVAniModel.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CTextCommandW.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CTextCommand.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CTargetSurface.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CTail.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CStringToCode.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSpotEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSpellEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CScreenBlur.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CRenderSurface.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CNPCStickAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         cloak.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CGlow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CFlyWeaponManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CFlyWeaponBase.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CFloatSequence.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\bravolibs\effect\cfloatsequence.h(8): fatal error C1083: Cannot open include file: 'd3dx9math.h': No such file or directory
+         CFixSizeBillboard.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CFadeLoop.cpp
+         CFade.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CExpDisplay.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFWrathKniteAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFWrath_Bomb.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFWoodenSword.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CEFWing0.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFWindBush.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFTyneeWave.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFTripleFire.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFTripleDarkness.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFTigerAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSwordUp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFStrongSword.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFStoneRian.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFStickUp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFStickAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSrcLink.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSPSuction.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSpiritFireSmack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSpeacialItem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSonBrush.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFSniperBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFScapmper.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRoundLight.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRoundFire.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CEFRockShield.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRockPress.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRefreshSword.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRefreshBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRecoveryItem2.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRandomArrow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFPriestStandAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFPossessedAppear.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFPossessed.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFNpcStoneAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFNpcFireBall.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFNPCBubble.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFMouthFire.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFMomentHide.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFMagicDelete.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFLightStorm.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFLightning.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFLandDamage.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFKeepUpPump.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFIceSpire.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CEFIceSpear.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFIceShiled.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFIceRipBlow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFIceRain.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFIceField.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFIceBowRain.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHPSuction.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHolyBomb.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHolyAppear.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHideSensor.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHide.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHealRainBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHealBubble.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFHandPar.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFGTEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFGolemEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFGloveDestruction.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFGlareBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFGatherCut.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFGageTrans.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CEFFruitAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFPopoiAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFootStrength.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFootBowLink.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFootBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFireWork.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFireStormSmash.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFireSmack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFireRain.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFireBall.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFireArmor.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEffectTextureManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEffectModel.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFastBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFameItemSet.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFFameItem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFEnergy.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFEmblemFlag.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFEldaWeaponItem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFEarthBind.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CEFDetect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFDarkness.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFDarkBomb.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFConAniSkill.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFCommonFlySill.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFCircleCrash.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFCastStone.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFCannonEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBunchStrength.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBubbleCrash.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBowUp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBowRain.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBowDoubleShot.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBowAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBookUp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBookCriticalAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBookAttack.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBonWarSkill.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBonArcSkill.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBizEyeBeam.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CEFBigPress.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBigNpcSkill0.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBigNpc0.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBigBubble.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBeeLineBow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBallUp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFAvoid.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFArrow.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFAniWing0.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFAddEffectBase.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CDropEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CDamageNum.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CDamageEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CComboEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CCombo2DEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CBillboardLine.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CBillboardCurve.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CArrowWeapon.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CArrowStuck.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CArrowDisplay.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         billboard.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         animsequence.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEffectBase.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFUrobosEff.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFRugalSkill.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFJanadEff.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFDogmaEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEFBaragosEff.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         particle.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         MixEffectItemSword.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         effectsystem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CEffectManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         waterfall.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         water.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         planewatereffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         gtexture.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         grassnormal.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         grass.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fileinfo.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldwaterfall.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         fieldparticle.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldobj.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldnpc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldmultimap.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldmapping.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldgrass.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldgeomedit.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         fieldattr.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         field.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         d3drenderobj.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         object_manager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         object.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SourceDataManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         SkillSystem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PlayerNPCDataManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         player_manager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         player.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         nonplayer.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         EffItemManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CNPCImpactTable.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CMantleItem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CHolyManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CharacterAI.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         character_item.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         character_animation.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         character.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CFaceExp.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CClassView.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CCharImage.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ActionSystem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         texturemanager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         texture.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         model.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         animation.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         WinLock.cpp
+         path_find.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         objmath.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Inject.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         findway.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         VFileSystem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         UIDataManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         pc.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         PacketCrypto.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         NetworkMgr.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         mobject.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         md5.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         global.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         DelayActList.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CWebDialog.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSlangFilter.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSetEnv.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CSceneManager.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CNodeSort.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\cnodesort.h(8): fatal error C1083: Cannot open include file: 'd3dx9math.h': No such file or directory
+         CLogo2DEffect.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CLightState.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         charitem.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CDynamicVertexBuffer.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         CCollision.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\ccollision.h(5): fatal error C1083: Cannot open include file: 'd3dx9math.h': No such file or directory
+         CAction.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         brother.cpp
+     1>c:\users\administrator\desktop\g&m\originals\rockclient\applicationsa\rockclient_old2\rocklibs\rockpch.h(74): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Administrator\Desktop\G&M\Originals\RockClient\ApplicationsA\ROCKCLIENT_OLD2\RockClient.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:03:32.49

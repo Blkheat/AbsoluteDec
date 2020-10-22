@@ -1,0 +1,3280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{dafa6702-6a5a-4551-b315-51cd56b4c610}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{dc22ac7a-5d55-4f34-9a12-f093f61d4b02}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67690fe7-426b-484b-acf7-709c7fec2ca1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="BravoLibrary">
+      <UniqueIdentifier>{7f881b5a-99a7-430c-b549-cb3db54c4d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\obj">
+      <UniqueIdentifier>{0d5afe03-eb40-44a8-a86b-87045822a5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\obj\etc.">
+      <UniqueIdentifier>{df190c5c-6e00-4dd4-9731-54c80d615a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\obj\file data">
+      <UniqueIdentifier>{d36261d8-e9b0-4164-bafc-d2f888c6dfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\obj\vertex">
+      <UniqueIdentifier>{eaa38c73-525c-4f10-ab85-eb3041b6318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\obj\character">
+      <UniqueIdentifier>{80cbbc9f-3316-482c-bcc9-363587d0381f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\obj\object">
+      <UniqueIdentifier>{80d2cf1a-cb40-4fd7-91eb-ad2635e89976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\map">
+      <UniqueIdentifier>{d0c8284b-4e1f-4c56-8594-4d66e71ef652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\effect">
+      <UniqueIdentifier>{eb0ea0b4-b8a3-4a15-9f8e-0710b9eccb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\effect\Manager">
+      <UniqueIdentifier>{30074990-5a9c-4db3-864b-d59f77dc0be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé">
+      <UniqueIdentifier>{eab5e2b4-e866-4ff0-8a2e-dee79917fa2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\effect\ÀÌÆåÆ®º£ÀÌ½º">
+      <UniqueIdentifier>{e10fc9fd-fdb8-4809-a5e0-d8ccaa5e1b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé">
+      <UniqueIdentifier>{bd462934-8f9d-4515-accd-c8af92e6014b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\base">
+      <UniqueIdentifier>{5c0d01c7-207e-451c-af0d-a15f35d3a1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\sound">
+      <UniqueIdentifier>{d8f97f53-de9e-4d67-8f08-72ebb834d7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BravoLibrary\sound\net">
+      <UniqueIdentifier>{c7e66061-b2f0-4510-8292-02f81a3dd991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary">
+      <UniqueIdentifier>{613f1202-651d-42b6-bd2a-ab80362070d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\profile">
+      <UniqueIdentifier>{2d717ea2-f328-466e-b69c-de550fc6dec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface">
+      <UniqueIdentifier>{e0b8187b-6b09-4537-98d8-07b6f405812b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\Framework">
+      <UniqueIdentifier>{5b9119a1-5ba4-4385-9c26-4cff99528a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\BaseControl">
+      <UniqueIdentifier>{e6ea165a-483d-46eb-b93c-d313d04611fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\GameControl">
+      <UniqueIdentifier>{1ff14652-9c31-44e2-a599-dbffaed66bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc">
+      <UniqueIdentifier>{8d9e5d17-78c0-4fee-8929-d6c16a4dafb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Subjob">
+      <UniqueIdentifier>{1261a73d-c5e3-44e6-bb60-08cf8eab8362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\·Îµù">
+      <UniqueIdentifier>{e3984822-0b87-47ea-918e-5e209550aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ ¼±ÅÃ">
+      <UniqueIdentifier>{df72ddb4-92bb-4dfe-b5f2-88342dbe94de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¼­¹ö¼±ÅÃ">
+      <UniqueIdentifier>{fc52c3eb-dd89-4f74-98ba-5ef18b694893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\·Î±×ÀÎ">
+      <UniqueIdentifier>{770db2bb-a8b6-4128-bc53-b3f939e8055e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÀÎº¥">
+      <UniqueIdentifier>{450b19ee-7bd6-47d5-b3b2-b3b11f1b7a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »ý¼º">
+      <UniqueIdentifier>{b8b63f46-af8b-46b4-b73b-dffda2fb9a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »èÁ¦">
+      <UniqueIdentifier>{54e02d5e-f8f0-42c3-b502-b793494c5792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ Á¤º¸">
+      <UniqueIdentifier>{e647c354-abf9-44a3-b8e8-6cc311100c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »óÅÂ">
+      <UniqueIdentifier>{5bf344a6-97b9-4689-b5ba-02900884aba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½">
+      <UniqueIdentifier>{28825dbf-f215-46ea-82e7-3f1e76f133ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\·Î±×ÀÎ ¼ÅÅÍ">
+      <UniqueIdentifier>{cf4b0a7e-013d-48e7-9d05-72ed98edd906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¹Ì´Ï°ÔÀÓ">
+      <UniqueIdentifier>{e43d87d5-424f-43b2-bf2f-4d32385a211e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¹Ì´Ï¸Ê Ã¢">
+      <UniqueIdentifier>{79eb0804-a829-42a0-9d5c-3e09999c9de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ºÎ°¡ È¿°ú ¸Þ¼¼Áö">
+      <UniqueIdentifier>{71ce1d7e-4e5d-46e0-bb65-0d66385aa650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\´ëÀüÀå">
+      <UniqueIdentifier>{d35a44fd-272e-4cc4-b683-1b29ade24852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\È÷Æ®¹Ù À©µµ¿ì">
+      <UniqueIdentifier>{77c4847f-fde6-4b4f-90ea-19d4c2e3bad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\»ç±³ µ¿ÀÛ Ã¢">
+      <UniqueIdentifier>{46658e7e-1860-4287-8c31-077e27a6aa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\±³È¯Ã¢">
+      <UniqueIdentifier>{6a189f93-ad69-462b-8956-e277ab66f9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¸®±× ¸â¹ö Á¤º¸ Ã¢">
+      <UniqueIdentifier>{50b44ab4-3029-45f3-a34c-4512f2330f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\±¸¸Å ¾ÆÀÌÅÛ ¸®½ºÆ® Ã¢">
+      <UniqueIdentifier>{0df95a3d-cada-4c2a-8e0d-74097728fbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\À¯Àú Á¤º¸ °ü·Ã">
+      <UniqueIdentifier>{6e67a214-45bd-4550-8a97-c7889d6bfea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¶óµð¿À ¹æ¼Û °ü·Ã">
+      <UniqueIdentifier>{950fb14c-22dd-413a-bb4c-e8faf5021305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\»óÁ¡ °Å·¡ °ü·Ã">
+      <UniqueIdentifier>{a55cf896-f797-4e22-85d2-c7ae69b15ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\UI ¸Þ¼¼Áö Ã¢">
+      <UniqueIdentifier>{7a41757d-e4e0-43d0-ba04-1e712b49c642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°¹¼ö ÀÔ·Â Ã¢">
+      <UniqueIdentifier>{721d8990-ba32-4e5b-86ea-c7981293cdf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ »ö»ó º¯°æ °á°ú Ã¢">
+      <UniqueIdentifier>{5351f163-015d-4695-8b34-fe6af8404e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ »ö»ó º¯°æ Ã¢">
+      <UniqueIdentifier>{590e84a5-8c01-41c3-b410-9a91495a3e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°øÃ¢">
+      <UniqueIdentifier>{e215031f-ccbc-48c4-af38-1a75cca48e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°ø ¼º°ø">
+      <UniqueIdentifier>{c420aa30-e115-4307-b0b8-0b91d914c4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°ø ½ÇÆÐ">
+      <UniqueIdentifier>{4db9a79d-3ee4-4a1e-9960-f31211524b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ°ú ¾ÆÀÌÅÛÇÕ¼º ¼±ÅÃ">
+      <UniqueIdentifier>{66eb231f-5318-4201-86fd-c2bf9f4ac001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ°ú ¾ÆÀÌÅÛÇÕ¼º">
+      <UniqueIdentifier>{b68cc1bb-a00e-4218-982a-ed2441bd68c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡·çº¯È¯ °á°ú">
+      <UniqueIdentifier>{acdf086f-f61b-47c6-b638-294c77e940e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡·çº¯È¯">
+      <UniqueIdentifier>{6ccefff7-c17a-4904-88d5-0b01e7832be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ Å¸ÀÌÆ² Ã¢">
+      <UniqueIdentifier>{be035875-efcf-47d2-bbfe-bdac6d3b6926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ÆÇ¸Å»óÇ° µî·Ï Ã¢">
+      <UniqueIdentifier>{281dfc35-7f24-4ee5-b052-9e5a2f0eefe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ¾ÆÀÌÅÛ ±¸ÀÔÃ¢">
+      <UniqueIdentifier>{7f16aa20-6b3a-4a3c-9697-30ab696fa623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ Ã¢">
+      <UniqueIdentifier>{7b7d2666-55ae-40c8-b255-6c0962591643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ±¸ÀÔÃ¢">
+      <UniqueIdentifier>{5d8d44b9-bde7-4f88-bb58-89deacb23b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\½ºÅ³ ½ÀµæÃ¢">
+      <UniqueIdentifier>{f2c65a01-a552-47cb-ae03-4c5ff86c69a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\½ºÅ³ ·¹º§¾÷ Ã³¸®Ã¢">
+      <UniqueIdentifier>{27ac725b-6f05-4867-a0bb-6e2847704575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\½ºÅ³Ã¢">
+      <UniqueIdentifier>{aa088e30-5849-4aef-a41c-b4e9e56c0b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ ¸Þ¼¼ÁöÃ¢">
+      <UniqueIdentifier>{e0399de1-8d71-4cd0-a46f-5f7dde666f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ ¸Þ´º">
+      <UniqueIdentifier>{2870d26b-ba03-42fa-b4e5-e419548115c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ Ãâ·ÂÃ¢">
+      <UniqueIdentifier>{7fec60ca-ca4f-469e-bb57-9516a101c7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢ ½½·¯½¬ ¸í·É¾î Ã³¸®">
+      <UniqueIdentifier>{62a328ef-866d-4d93-9963-8711db677057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ÆË¾÷Ã¢">
+      <UniqueIdentifier>{7324627a-c7bb-4857-ac66-16436ce4c2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ¸â¹ö Ã¢">
+      <UniqueIdentifier>{ac485666-a5c9-47e0-8302-b373d2962548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ÆË¾÷ ¸Þ´º Ã¢">
+      <UniqueIdentifier>{a9163053-151a-419b-bccb-5df3dc64d318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÆÄÆ¼ Á¤º¸ Ã¢">
+      <UniqueIdentifier>{81edb8ef-f5b2-4c28-a24a-7ac61b5e3794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ¼ö¶ô ¿©ºÎÃ¢">
+      <UniqueIdentifier>{42f6e3d7-a647-47d5-8e6c-b93528b497e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Àå½Å±¸ °¡°ø °á°úÃ¢">
+      <UniqueIdentifier>{86c6856a-e3d5-4a41-9cf2-6609af0fb4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Àå½Å±¸ °¡°øÃ¢">
+      <UniqueIdentifier>{a87c09f5-9bb5-4700-bd38-245632e291a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °­È­ Ã¢">
+      <UniqueIdentifier>{bd251fe7-acc9-4479-8565-debd201ef2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °­È­ °á°ú Ã¢">
+      <UniqueIdentifier>{306765b2-b7ee-4b65-aa07-2bf00df544ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°ø ¼º°øÃ¢">
+      <UniqueIdentifier>{565ddc56-ee6e-4622-9b9c-aeca2b9217da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°ø ½ÇÆÐÃ¢">
+      <UniqueIdentifier>{aea0150b-4920-418c-893b-7143be8d359a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°øÃ¢">
+      <UniqueIdentifier>{0085665f-0716-4939-9ff8-aac1efdebb31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ±³È¯ Ã¢">
+      <UniqueIdentifier>{191367b9-df72-4024-a318-b901017e7ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ÃßÃâÃ¢">
+      <UniqueIdentifier>{231fe406-67dc-488c-ad3d-994a1fcf3d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ÃßÃâ °á°úÃ¢">
+      <UniqueIdentifier>{43266258-72c2-4397-8581-a173adee70f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¸ÞÀÎÈ­¸é ¸Þ´º °ü·Ã">
+      <UniqueIdentifier>{c498c6a3-44d5-477b-8e27-ea73b7482056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ Á¤º¸ ¼³Á¤">
+      <UniqueIdentifier>{7ee2fdde-0ff4-4099-a648-35660f5d287c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ Ä£±¸Ã¢ ÅÇ">
+      <UniqueIdentifier>{fe3dd73f-e40b-46d4-8894-ad936b9e911a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ Â÷´ÜÅÇ">
+      <UniqueIdentifier>{9fd875d7-883a-487c-aca5-3fb4d770b578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ ÇÁ·ÐÆ¼¾îÅÇ">
+      <UniqueIdentifier>{cbcdb782-a3c0-429b-a84f-71eff1ed168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ¼ö¸® Ã¢">
+      <UniqueIdentifier>{9c63d998-e93c-4c3b-aa79-3d5e28a32892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Æ÷¼Ç Á¦Á¶ Ã¢">
+      <UniqueIdentifier>{12ab3e93-f3ea-4c13-815a-6e61a96ea8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Æ÷¼Ç Á¦Á¶ °á°úÃ¢">
+      <UniqueIdentifier>{450e0d38-f644-40ab-bdd3-afb44cf602fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\´Ù¸¥À¯Àú ¹× NPC ¸Þ´ºÃ¢">
+      <UniqueIdentifier>{40ff321c-a417-4397-a94c-ead93554e94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\´Ù¸¥À¯Àú ¹× NPCÁ¤º¸Ã¢">
+      <UniqueIdentifier>{04520ce1-b723-4021-9a8a-6b64e7e5ce21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÇÁ·ÐÆ¼¾î ¸ÞÀÎ Á¤º¸ Ã¢">
+      <UniqueIdentifier>{59605524-33d1-4971-a0d9-72186272c490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÇÁ·ÐÆ¼¾î »ý¼ºÃ¢">
+      <UniqueIdentifier>{c8587beb-c142-4a76-921a-8af68c96c698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\´É·Â¾÷ Ã³¸®Ã¢">
+      <UniqueIdentifier>{b80e5012-10f4-4b9f-8764-76c8cf965ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\´É·Â¾÷ °á°ú%28È®ÀÎ/Ãë¼Ò%29Ã¢">
+      <UniqueIdentifier>{4f84a0b1-c57d-4939-89e0-29f1a2e7e753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Æê »óÅÂÃ¢">
+      <UniqueIdentifier>{9db6b803-87d7-484d-9372-458d55868cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Æê ÀÎº¥Åä¸® Ã¢">
+      <UniqueIdentifier>{264ec660-a77a-4675-bc08-69efe49d25c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Æê ¸ÞÀÎÃ¢">
+      <UniqueIdentifier>{7cbf81da-ff79-4149-a7a3-0c4a840ff659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃ´ëÈ­ È°¼ºÈ­/ºñÈ°¼ºÈ­ °ü·Ã">
+      <UniqueIdentifier>{82d1e8b3-bb36-4d86-8ceb-3eb7fbc4dce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢">
+      <UniqueIdentifier>{0b458b93-441c-492c-9b25-c897f67d9326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ¼¼Áö ¹Ú½º">
+      <UniqueIdentifier>{e388d228-e443-44eb-a33e-899cd59df590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\Ã¤ÆÃ ¸Þ¼¼Áö Ã¢">
+      <UniqueIdentifier>{bee352b0-a755-4246-9e2e-4f7b9434a347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\Ä£±¸Ã¢">
+      <UniqueIdentifier>{15f7b50a-8cba-467a-a63b-16676ec64ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú ¾Ë¸²Ã¢">
+      <UniqueIdentifier>{542fd41e-9d50-4745-af35-26a95a09f8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú ¸Þ¼¼Áö Ã¢">
+      <UniqueIdentifier>{cb1d6ac9-a09c-4464-a90a-4d5fdb82c568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸ÖÆ¼Ã¤ÆÃ Ã¢">
+      <UniqueIdentifier>{4329dbc2-0323-4ab0-9af4-a467429ceec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú Ã¢">
+      <UniqueIdentifier>{aaafdf2d-65e2-4dac-bd49-523998e683bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï ¾ÆÀÌÅÛ ¹Ì¸®º¸±â Ã¢">
+      <UniqueIdentifier>{b2ababc1-64cf-49f3-bcba-182529c9f757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÄÝ¸®´Ï °ø¼º/¼ö¼º º´±â ¸Ê¹èÄ¡">
+      <UniqueIdentifier>{db1ce767-4c41-4abf-82be-b0c2a1d83747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï Áö¿ª Á¤º¸Ã¢">
+      <UniqueIdentifier>{46b29b8a-78e2-45d3-b7ef-a7717c3c686d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï Áö¿ª ¾È³» ¸®½ºÆ®Ã¢">
+      <UniqueIdentifier>{3ed067d1-c941-4b04-9e83-b35002ddd0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\º¸°üÇÔ Ã¢">
+      <UniqueIdentifier>{d2de7132-ba3f-42fa-a025-da1195bd24f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¿É¼ÇÃ¢">
+      <UniqueIdentifier>{dd411be0-1c53-4b60-80d2-8d8c05c383f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\À¥»óÁ¡">
+      <UniqueIdentifier>{21b8231e-217e-4b08-bdc0-ee17e0730221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\·Î±×Ã¢">
+      <UniqueIdentifier>{24237692-3d24-4674-be50-b0c1ebdc3d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ ºÎÈ°Ã¢">
+      <UniqueIdentifier>{828bc7b5-da9a-49ed-a04a-e8b582258c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\°¡ÀÌµå Ã¢%28¸ðÇè¹é¼­%29">
+      <UniqueIdentifier>{ad817a23-2d70-425d-abcb-ec097c29048c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\¾ÆÃ³ ÄÁµð¼Ç °ÔÀÌÁö ¹Ù">
+      <UniqueIdentifier>{24866da5-85b0-47cf-acc7-aa74098b7f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\µô·¹ÀÌ ¹Ù">
+      <UniqueIdentifier>{c203ac8f-574b-41c0-9753-186d45350c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\±æµåÃ¢°í">
+      <UniqueIdentifier>{e7a14a29-c7cd-4b50-8864-209113e11422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\WndProc\±æµåÃÊ´ë">
+      <UniqueIdentifier>{0b8cbc74-fcde-40fe-8ed2-ba1948561a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RockLibrary\RockInterface\UIÃ¢µé »ý¼º">
+      <UniqueIdentifier>{c08ba6b2-4499-4998-8d30-5e2a916ea5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Squence">
+      <UniqueIdentifier>{315f09cb-9c5e-4a7e-adbc-2fdbb8f4d018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="¹Ì»ç¿ë">
+      <UniqueIdentifier>{edfdf016-a26e-4e18-afaa-151918288ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ä«¸Þ¶ó">
+      <UniqueIdentifier>{5a82107f-ed9f-4117-b35b-1ed419716564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÁöÇü">
+      <UniqueIdentifier>{a5a879be-0d68-43c8-9680-c4333b039f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½º·¹µå">
+      <UniqueIdentifier>{683ba82f-93c8-4797-95de-20235b9cfe55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÇÙ½¯µå">
+      <UniqueIdentifier>{c2fadecb-e3e5-42ce-a411-8b0e22a8f1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="°ÔÀÓ°¡µå">
+      <UniqueIdentifier>{2a3f929f-5df0-4e0a-8923-ca74c6a092c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{14dc5a20-e358-439b-8261-fc27569c83d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½Ã°£">
+      <UniqueIdentifier>{b06812d6-ea18-4bb0-8530-30ca6b12fc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlg">
+      <UniqueIdentifier>{5f7eb5bc-e961-492d-bb66-496197f8e2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½ºÆ®¸µ">
+      <UniqueIdentifier>{72192a8f-614b-4e7c-b611-4f9ec655d28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="·»´õ">
+      <UniqueIdentifier>{c2e46f88-55fa-41d0-84cf-be5db21aeab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL Á÷Á¢±¸Çö">
+      <UniqueIdentifier>{f625f416-10ba-406c-85c9-58bf2738b625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="°ÔÀÓÀÌÆåÆ®">
+      <UniqueIdentifier>{df3e1d87-2c30-4dc7-9f0a-3ccc379f51b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="brother.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDynamicVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="charitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogo2DEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNodeSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlangFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWebDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayActList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IExplore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCrypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VFileSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\findway.cpp">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\Inject.cpp">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\objmath.cpp">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\path_find.cpp">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\WinLock.cpp">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\animation.cpp">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\model.cpp">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\texture.cpp">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\texturemanager.cpp">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\ActionSystem.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CCharImage.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CClassView.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CFaceExp.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\character.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\character_animation.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\character_item.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CharacterAI.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CHolyManager.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CMantleItem.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\CNPCImpactTable.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\EffItemManager.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\nonplayer.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\player.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\player_manager.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\PlayerNPCDataManager.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\SkillSystem.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\SourceDataManager.cpp">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\object.cpp">
+      <Filter>BravoLibrary\obj\object</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\obj\object_manager.cpp">
+      <Filter>BravoLibrary\obj\object</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\d3drenderobj.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\field.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldattr.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldgeomedit.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldgrass.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldmapping.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldmultimap.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldnpc.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldobj.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldparticle.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fieldwaterfall.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\fileinfo.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\grass.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\grassnormal.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\gtexture.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\planewatereffect.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\water.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\map\waterfall.cpp">
+      <Filter>BravoLibrary\map</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEffectManager.cpp">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\effectsystem.cpp">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\MixEffectItemSword.cpp">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\particle.cpp">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBaragosEff.cpp">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFDogmaEffect.cpp">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFJanadEff.cpp">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRugalSkill.cpp">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFUrobosEff.cpp">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEffectBase.cpp">
+      <Filter>BravoLibrary\effect\ÀÌÆåÆ®º£ÀÌ½º</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\animsequence.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\billboard.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CArrowDisplay.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CArrowStuck.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CArrowWeapon.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CBillboardCurve.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CBillboardLine.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CCombo2DEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CComboEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CDamageEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CDamageNum.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CDropEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFAddEffectBase.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFAniWing0.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFArrow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFAvoid.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBallUp.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBeeLineBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBigBubble.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBigNpc0.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBigNpcSkill0.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBigPress.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBizEyeBeam.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBonArcSkill.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBonWarSkill.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBookAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBookCriticalAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBookUp.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBowAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBowDoubleShot.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBowRain.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBowUp.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBubbleCrash.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFBunchStrength.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFCannonEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFCastStone.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFCircleCrash.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFCommonFlySill.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFConAniSkill.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFDarkBomb.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFDarkness.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFDetect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFEarthBind.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFEldaWeaponItem.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFEmblemFlag.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFEnergy.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFameItem.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFameItemSet.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFastBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEffectModel.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEffectTextureManager.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFireArmor.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFireBall.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFireRain.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFireSmack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFireStormSmash.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFireWork.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFootBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFootBowLink.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFootStrength.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFPopoiAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFFruitAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFGageTrans.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFGatherCut.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFGlareBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFGloveDestruction.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFGolemEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFGTEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHandPar.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHealBubble.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHealRainBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHide.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHideSensor.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHolyAppear.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHolyBomb.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFHPSuction.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceBowRain.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceField.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceRain.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceRipBlow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceShiled.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceSpear.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFIceSpire.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFKeepUpPump.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFLandDamage.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFLightning.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFLightStorm.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFMagicDelete.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFMomentHide.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFMouthFire.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFNPCBubble.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFNpcFireBall.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFNpcStoneAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFPossessed.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFPossessedAppear.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFPriestStandAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRandomArrow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRecoveryItem2.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRefreshBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRefreshSword.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRockPress.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRockShield.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRoundFire.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFRoundLight.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFScapmper.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSniperBow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSonBrush.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSpeacialItem.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSpiritFireSmack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSPSuction.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSrcLink.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFStickAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFStickUp.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFStoneRian.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFStrongSword.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFSwordUp.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFTigerAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFTripleDarkness.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFTripleFire.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFTyneeWave.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFWindBush.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFWing0.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFWoodenSword.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFWrath_Bomb.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CEFWrathKniteAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CExpDisplay.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CFade.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CFadeLoop.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CFixSizeBillboard.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CFloatSequence.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CFlyWeaponBase.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CFlyWeaponManager.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CGlow.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\cloak.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CNPCStickAttack.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CRenderSurface.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CScreenBlur.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CSpellEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CSpotEffect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CStringToCode.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CTail.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CTargetSurface.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CTextCommand.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CTextCommandW.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CVAniModel.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\CWeatherDrop.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\effectinsect.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\tails.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\effect\timer.cpp">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\base\d3dapp.cpp">
+      <Filter>BravoLibrary\base</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\base\d3dfont.cpp">
+      <Filter>BravoLibrary\base</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\base\d3dutil.cpp">
+      <Filter>BravoLibrary\base</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\base\dxutil.cpp">
+      <Filter>BravoLibrary\base</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\sound\c3dsound.cpp">
+      <Filter>BravoLibrary\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\sound\sound.cpp">
+      <Filter>BravoLibrary\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="bravolibs\sound\sound_manager.cpp">
+      <Filter>BravoLibrary\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\profile\custom_time.cpp">
+      <Filter>RockLibrary\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\profile\Profile.cpp">
+      <Filter>RockLibrary\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Chain.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Container.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\EmblemTexManager.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Fontasm.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Fontg.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Fontman.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Input.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\InputDXDevice.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MessengerMemoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PlayerEtcPrc.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Render.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Resource.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Rui.CPP">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\TextOutputBase.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\UiUtil.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Util.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\WndProc.cpp">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Button.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CheckButton.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CImm.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ComboBox.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\EditBox.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\FrameWnd.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ImageAni.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ImageBox.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ListBox.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ProgressBar.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\RadioButton.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ScrollBar.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SlideBar.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Spin.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\StateButton.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\TextBox.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\UpGauge.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Wnd.cpp">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Announcement.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\BZoneIN2DEffect.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CArrowLineList.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CBillBoardUIRender.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CharIdRenderer.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CharImgButton.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChatBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChatEditBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChatMainProc.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChatOutput.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Combo2DTimingEffect.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ComboStepBar.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ComEffImgBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ComEffProgBar.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CPlayerPartyInfo.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CReflection.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CSlotDelayProc.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CTextOutList.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\DlgBalloon.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\FlashFrameWnd.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\FlashWnd.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\FrameTextBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\HelpItemTip.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\HelpStringTip.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemGetButton.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\LimitLenTextBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\LocalEntireMap.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MiniMap.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MLineEditBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\NonPlayerInfoMiniBar.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\RITextBox.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Slot.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SysMsgOutput.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\Xprism.cpp">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\EssenceWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaMixRWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemEnchantRWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemEnchantWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemSelectPotionWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\NpcChatWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\QuestProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SpellStoneWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\StrengthStoneWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\LoadingWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\·Îµù</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CharSelectWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ ¼±ÅÃ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ServerListWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¼­¹ö¼±ÅÃ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\LoginWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\·Î±×ÀÎ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\InventoryWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÀÎº¥</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CharCreateWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »ý¼º</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CharDelWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »èÁ¦</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CharStateWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ Á¤º¸</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PlayerInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »óÅÂ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\BankWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CPartyInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SkillInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SkillOverWriteWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SkillRegistWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CLoginShutter.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\·Î±×ÀÎ ¼ÅÅÍ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MiniGame_Elda.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¹Ì´Ï°ÔÀÓ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MiniMapWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¹Ì´Ï¸Ê Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\AddEffectMsg.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ºÎ°¡ È¿°ú ¸Þ¼¼Áö</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\BattleZoneWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\´ëÀüÀå</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChantHitBarWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\È÷Æ®¹Ù À©µµ¿ì</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CSocialActWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\»ç±³ µ¿ÀÛ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ExchangeWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\±³È¯Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\LeagueInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¸®±× ¸â¹ö Á¤º¸ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PayItemWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\±¸¸Å ¾ÆÀÌÅÛ ¸®½ºÆ® Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PlayerInfoAddWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\À¯Àú Á¤º¸ °ü·Ã</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\RadioBroadcast.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¶óµð¿À ¹æ¼Û °ü·Ã</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\StoreWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\»óÁ¡ °Å·¡ °ü·Ã</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\UIMsgWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\UI ¸Þ¼¼Áö Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\NumberInputWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°¹¼ö ÀÔ·Â Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CChangeEldaColorRWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ »ö»ó º¯°æ °á°ú Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CChangeEldaColorWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ »ö»ó º¯°æ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemRemodelWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°øÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemRemodel_SWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°ø ¼º°ø</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemRemodel_FWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°ø ½ÇÆÐ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemSelectEldaMixWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ°ú ¾ÆÀÌÅÛÇÕ¼º ¼±ÅÃ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaMixAWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ°ú ¾ÆÀÌÅÛÇÕ¼º</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaDustRWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡·çº¯È¯ °á°ú</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemEldaDust.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡·çº¯È¯</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreTitleWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ Å¸ÀÌÆ² Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreSetWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ÆÇ¸Å»óÇ° µî·Ï Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreSetBuyWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ¾ÆÀÌÅÛ ±¸ÀÔÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreSellWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CUserStoreBuyWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ±¸ÀÔÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SkillLearnProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\½ºÅ³ ½ÀµæÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SkillLevelUpWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\½ºÅ³ ·¹º§¾÷ Ã³¸®Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SkillWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\½ºÅ³Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SysMsgWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ ¸Þ¼¼ÁöÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SystemMenuWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ ¸Þ´º</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\SystemPrintWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ Ãâ·ÂÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CEditSlashProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢ ½½·¯½¬ ¸í·É¾î Ã³¸®</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MPopupMenuWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ÆË¾÷Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PartyMemberWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ¸â¹ö Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PartyPopupWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ÆË¾÷ ¸Þ´º Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PartyInforWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ Á¤º¸ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CPAcceptYesNoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ¼ö¶ô ¿©ºÎÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CAcryEnchantRWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Àå½Å±¸ °¡°ø °á°úÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CAcryEnchantWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Àå½Å±¸ °¡°øÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemAccEnchant.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °­È­ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemAccEnchantRWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °­È­ °á°ú Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemCreate_SWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°ø ¼º°øÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemCreate_FWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°ø ½ÇÆÐÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemCreateWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°øÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemExchangeWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ±³È¯ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemExtractWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ÃßÃâÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemExtractRWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ÃßÃâ °á°úÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MainMenuWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¸ÞÀÎÈ­¸é ¸Þ´º °ü·Ã</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MSettingTabWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ Á¤º¸ ¼³Á¤</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MFriendTabWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ Ä£±¸Ã¢ ÅÇ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MBlockTabWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ Â÷´ÜÅÇ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MGuildTabWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ ÇÁ·ÐÆ¼¾îÅÇ</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemRepairWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ¼ö¸® Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemSkillPotionWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Æ÷¼Ç Á¦Á¶ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ItemSkillPotionRWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Æ÷¼Ç Á¦Á¶ °á°úÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\NonPlayerInfoAddWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\´Ù¸¥À¯Àú ¹× NPC ¸Þ´ºÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\NonPlayerInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\´Ù¸¥À¯Àú ¹× NPCÁ¤º¸Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\FrontierMainWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÇÁ·ÐÆ¼¾î ¸ÞÀÎ Á¤º¸ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\FrontierCreateWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÇÁ·ÐÆ¼¾î »ý¼ºÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\AbilityUpWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\´É·Â¾÷ Ã³¸®Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\AbilityUpConfirmWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\´É·Â¾÷ °á°ú%28È®ÀÎ/Ãë¼Ò%29Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PetInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Æê »óÅÂÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PetInventoryWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Æê ÀÎº¥Åä¸® Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\PetMainWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Æê ¸ÞÀÎÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChatPartWndList.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃ´ëÈ­ È°¼ºÈ­/ºñÈ°¼ºÈ­ °ü·Ã</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MessageBox.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ¼¼Áö ¹Ú½º</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MessageWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ¼¼Áö ¹Ú½º</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ChatBoxWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\Ã¤ÆÃ ¸Þ¼¼Áö Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MCommunityWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\Ä£±¸Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MessenNotifyWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú ¾Ë¸²Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MMsgWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú ¸Þ¼¼Áö Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MessenMultiChatWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸ÖÆ¼Ã¤ÆÃ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\MessenOneChatWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CColItemPreViewWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï ¾ÆÀÌÅÛ ¹Ì¸®º¸±â Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CColMapPositionWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ¸®´Ï °ø¼º/¼ö¼º º´±â ¸Ê¹èÄ¡</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CColRegionInfoWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï Áö¿ª Á¤º¸Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CColRegionListWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï Áö¿ª ¾È³» ¸®½ºÆ®Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\WarehouseWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\º¸°üÇÔ Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\OptionWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¿É¼ÇÃ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CWebShopWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\À¥»óÁ¡</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CLogWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\·Î±×Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\AliveWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ ºÎÈ°Ã¢</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CGuideWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\°¡ÀÌµå Ã¢%28¸ðÇè¹é¼­%29</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CArcherBar.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÃ³ ÄÁµð¼Ç °ÔÀÌÁö ¹Ù</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CDelayBarWnd.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\µô·¹ÀÌ ¹Ù</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\GuildInventoryWndProc.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\±æµåÃ¢°í</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\ProposeJoinFrontier.cpp">
+      <Filter>RockLibrary\RockInterface\WndProc\±æµåÃÊ´ë</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockInterface\CompntCommon.cpp">
+      <Filter>RockLibrary\RockInterface\UIÃ¢µé »ý¼º</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\PickHeightField.cpp">
+      <Filter>RockLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockPCH.cpp">
+      <Filter>RockLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="rocklibs\RockWater.cpp">
+      <Filter>RockLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Squence\CChangeClass.cpp">
+      <Filter>Squence</Filter>
+    </ClCompile>
+    <ClCompile Include="Squence\CRotDisplay.cpp">
+      <Filter>Squence</Filter>
+    </ClCompile>
+    <ClCompile Include="Squence\CSquenceBase.cpp">
+      <Filter>Squence</Filter>
+    </ClCompile>
+    <ClCompile Include="Squence\CSquenceManager.cpp">
+      <Filter>Squence</Filter>
+    </ClCompile>
+    <ClCompile Include="Squence\CThreeWayDisplay.cpp">
+      <Filter>Squence</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>¹Ì»ç¿ë</Filter>
+    </ClCompile>
+    <ClCompile Include="RockChksum.cpp">
+      <Filter>¹Ì»ç¿ë</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Ä«¸Þ¶ó</Filter>
+    </ClCompile>
+    <ClCompile Include="CCloud.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="landpatch.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="landscape.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDataManager.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="quadlist.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>ÁöÇü</Filter>
+    </ClCompile>
+    <ClCompile Include="AThread.cpp">
+      <Filter>½º·¹µå</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemTexLoadThread.cpp">
+      <Filter>½º·¹µå</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoadingBarThread.cpp">
+      <Filter>½º·¹µå</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogoDisplayThread.cpp">
+      <Filter>½º·¹µå</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetProcThread.cpp">
+      <Filter>½º·¹µå</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Jpeg.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="RockClient.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="RockClientNet.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GTimer.cpp">
+      <Filter>½Ã°£</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTime.cpp">
+      <Filter>½Ã°£</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTime.cpp">
+      <Filter>½Ã°£</Filter>
+    </ClCompile>
+    <ClCompile Include="GMCmdDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketTransLogDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManager.cpp">
+      <Filter>½ºÆ®¸µ</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer.cpp">
+      <Filter>·»´õ</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderManager.cpp">
+      <Filter>·»´õ</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderState.cpp">
+      <Filter>·»´õ</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureState.cpp">
+      <Filter>·»´õ</Filter>
+    </ClCompile>
+    <ClCompile Include="CIndexList.cpp">
+      <Filter>STL Á÷Á¢±¸Çö</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>°ÔÀÓÀÌÆåÆ®</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Rockrsc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brother.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDynamicVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunctor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="charitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogo2DEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNodeSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetEnv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlangFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWebDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayActList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IExplore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VFileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\etcstruct.h">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\findway.h">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\Inject.h">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\objmath.h">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\WinLock.h">
+      <Filter>BravoLibrary\obj\etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\animation.h">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\model.h">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\texture.h">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\texturemanager.h">
+      <Filter>BravoLibrary\obj\file data</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\afterimage_vertex.h">
+      <Filter>BravoLibrary\obj\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\line_vertex.h">
+      <Filter>BravoLibrary\obj\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\object_vertex.h">
+      <Filter>BravoLibrary\obj\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\ActionSystem.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CCharImage.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CClassView.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CFaceExp.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\character.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\character_animation.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\character_item.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CharacterAI.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CHolyManager.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CMantleItem.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\CNPCImpactTable.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\EffItemManager.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\nonplayer.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\player.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\player_manager.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\PlayerNPCDataManager.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\SkillSystem.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\SourceDataManager.h">
+      <Filter>BravoLibrary\obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\object.h">
+      <Filter>BravoLibrary\obj\object</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\object_manager.h">
+      <Filter>BravoLibrary\obj\object</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\define.h">
+      <Filter>BravoLibrary\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\d3dfvf.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\d3drenderobj.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\field.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\fileinfo.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\grass.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\grassnormal.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\gtexture.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\planewatereffect.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\superviseenv.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\water.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\map\waterfall.h">
+      <Filter>BravoLibrary\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEffectManager.h">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\EffectID.h">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\effectsystem.h">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\MixEffectItemSword.h">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\particle.h">
+      <Filter>BravoLibrary\effect\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBaragosEff.h">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFDogmaEffect.h">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFJanadEff.h">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRugalSkill.h">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFUrobosEff.h">
+      <Filter>BravoLibrary\effect\ºÀÀÎÀÇ¼ºÁö º¸½º¸÷ ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEffectBase.h">
+      <Filter>BravoLibrary\effect\ÀÌÆåÆ®º£ÀÌ½º</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\animsequence.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\billboard.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CArrowDisplay.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CArrowStuck.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CArrowWeapon.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CBillboardCurve.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CBillboardLine.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CCombo2DEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CComboEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CDamageEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CDamageNum.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CDropEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFAddEffectBase.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFAniWing0.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFArrow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFAvoid.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBallUp.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBeeLineBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBigBubble.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBigNpc0.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBigNpcSkill0.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBigPress.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBizEyeBeam.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBonArcSkill.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBonWarSkill.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBookAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBookCriticalAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBookUp.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBowAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBowDoubleShot.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBowRain.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBowUp.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBubbleCrash.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFBunchStrength.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFCannonEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFCastStone.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFCircleCrash.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFCommonFlySill.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFConAniSkill.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFDarkBomb.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFDarkness.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFDetect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFEarthBind.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFEldaWeaponItem.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFEmblemFlag.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFEnergy.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFameItem.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFameItemSet.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFastBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEffectModel.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEffectTextureManager.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFireArmor.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFireBall.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFireRain.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFireSmack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFireStormSmash.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFireWork.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFootBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFootBowLink.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFootStrength.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFPopoiAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFFruitAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFGageTrans.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFGatherCut.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFGlareBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFGloveDestruction.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFGolemEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFGTEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHandPar.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHealBubble.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHealRainBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHide.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHideSensor.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHolyAppear.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHolyBomb.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFHPSuction.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceBowRain.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceField.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceRain.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceRipBlow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceShiled.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceSpear.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFIceSprie.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFKeepUpPump.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFLandDamage.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFLightning.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFLightStorm.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFMagicDelete.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFMomentHide.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFMouthFire.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFNPCBubble.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFNpcFireBall.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFNpcStoneAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFPossessed.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFPossessedAppear.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFPriestStandAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRandomArrow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRecoveryItem2.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRefreshBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRefreshSword.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRockPress.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRockShield.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRoundFire.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFRoundLight.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFScapmper.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSniperBow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSonBrush.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSpeacialItem.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSpiritFireSmack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSPSuction.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSrcLink.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFStickAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFStickUp.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFStoneRian.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFStrongSword.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFSWORDUP.H">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFTigerAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFTripleDarkness.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFTripleFire.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFTyneeWave.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFWindBush.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFWing0.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFWoodenSword.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFWrath_Bomb.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CEFWrathKniteAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CExpDisplay.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CFade.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CFadeLoop.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CFixSizeBillboard.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CFloatSequence.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CFlyWeaponBase.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CFlyWeaponManager.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CGlow.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\cloak.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CNPCStickAttack.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CRenderSurface.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CScreenBlur.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CSpellEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CSpotEffect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CStringMap.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CStringToCode.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CTail.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CTargetSurface.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CTextCommand.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CTextCommandW.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CVAniModel.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\CWeatherDrop.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\effectinsect.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\effectvertex.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\obj\objbase.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\tails.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\effect\timer.h">
+      <Filter>BravoLibrary\effect\¹ÌÁ¤¸® ÀÌÆåÆ®µé</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\base\d3dapp.h">
+      <Filter>BravoLibrary\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\base\d3dbase.h">
+      <Filter>BravoLibrary\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\base\d3dfont.h">
+      <Filter>BravoLibrary\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\base\d3dres.h">
+      <Filter>BravoLibrary\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\base\d3dutil.h">
+      <Filter>BravoLibrary\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\base\dxutil.h">
+      <Filter>BravoLibrary\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\network\protocol.h">
+      <Filter>BravoLibrary\sound\net</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\sound\c3dsound.h">
+      <Filter>BravoLibrary\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\sound\sound.h">
+      <Filter>BravoLibrary\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="bravolibs\sound\sound_manager.h">
+      <Filter>BravoLibrary\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\profile\custom_time.h">
+      <Filter>RockLibrary\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\profile\profile.h">
+      <Filter>RockLibrary\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Chain.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Container.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Define.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\DefineHID.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\DefineTID.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\DefineWID.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\EmblemTexManager.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Fontasm.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Fontg.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Fontman.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Input.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\InputDXDevice.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MessengerMemoWnd.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PartyBaseInfo.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PlayerEtcPrc.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Render.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Resource.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Rui.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\TextOutputBase.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\UiUtil.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Util.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\WndProc.h">
+      <Filter>RockLibrary\RockInterface\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Button.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CheckButton.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CImm.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ComboBox.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\EditBox.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\FrameWnd.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ImageAni.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ImageBox.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ListBox.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ProgressBar.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\RadioButton.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ScrollBar.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SlideBar.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Spin.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\StateButton.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\TextBox.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\UpGauge.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Wnd.h">
+      <Filter>RockLibrary\RockInterface\BaseControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Announcement.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\BZoneIN2DEffect.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CArrowLineList.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CBillBoardUIRender.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CharIdRenderer.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CharImgButton.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChatBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChatEditBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChatMainProc.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChatOutput.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Combo2DTimingEffect.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ComboStepBar.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ComEffImgBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ComEffProgBar.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CPlayerPartyInfo.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CReflection.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CSlotDelayProc.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CTextOutList.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\DlgBalloon.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\FlashFrameWnd.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\FlashWnd.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\FrameTextBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\HelpItemTip.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\HelpStringTip.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemGetButton.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\LimitLenTextBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\LocalEntireMap.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MiniMap.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MLineEditBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\NonPlayerInfoMiniBar.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\RITextBox.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Slot.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SysMsgOutput.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\Xprism.h">
+      <Filter>RockLibrary\RockInterface\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\EssenceWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaMixRWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemEnchantRWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemEnchantWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemSelectPotionWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\NpcChatWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\QuestProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SpellStoneWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\StrengthStoneWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Subjob</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\LoadingWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\·Îµù</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CharSelectWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ ¼±ÅÃ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ServerListWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¼­¹ö¼±ÅÃ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\LoginWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\·Î±×ÀÎ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\InventoryWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÀÎº¥</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CharCreateWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »ý¼º</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CharDelWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »èÁ¦</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CharStateWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ Á¤º¸</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PlayerInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ »óÅÂ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\BankWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CPartyInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SkillInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SkillOverWriteWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SkillRegistWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Å¬·¡½º³»¿ë ¾øÀ½</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CLoginShutter.h">
+      <Filter>RockLibrary\RockInterface\WndProc\·Î±×ÀÎ ¼ÅÅÍ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MiniGame_Elda.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¹Ì´Ï°ÔÀÓ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MiniMapWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¹Ì´Ï¸Ê Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\AddEffectMsg.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ºÎ°¡ È¿°ú ¸Þ¼¼Áö</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\BattleZoneWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\´ëÀüÀå</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChantHitBarWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\È÷Æ®¹Ù À©µµ¿ì</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CSocialActWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\»ç±³ µ¿ÀÛ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ExchangeWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\±³È¯Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\LeagueInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¸®±× ¸â¹ö Á¤º¸ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PayItemWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\±¸¸Å ¾ÆÀÌÅÛ ¸®½ºÆ® Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PlayerInfoAddWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\À¯Àú Á¤º¸ °ü·Ã</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\RadioBroadcast.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¶óµð¿À ¹æ¼Û °ü·Ã</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\StoreWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\»óÁ¡ °Å·¡ °ü·Ã</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\UIMsgWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\UI ¸Þ¼¼Áö Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\NumberInputWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°¹¼ö ÀÔ·Â Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CChangeEldaColorRWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ »ö»ó º¯°æ °á°ú Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CChangeEldaColorWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ »ö»ó º¯°æ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemRemodelWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°øÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemRemodel_SWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°ø ¼º°ø</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemRemodel_FWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡°ø ½ÇÆÐ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemSelectEldaMixWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ°ú ¾ÆÀÌÅÛÇÕ¼º ¼±ÅÃ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaMixAWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ°ú ¾ÆÀÌÅÛÇÕ¼º</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaDustRWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡·çº¯È¯ °á°ú</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemEldaDust.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿¤´Ù½ºÅæ °¡·çº¯È¯</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreTitleWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ Å¸ÀÌÆ² Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreSetWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ÆÇ¸Å»óÇ° µî·Ï Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreSetBuyWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ¾ÆÀÌÅÛ ±¸ÀÔÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreSellWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CUserStoreBuyWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°³ÀÎ»óÁ¡ ±¸ÀÔÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SkillLearnProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\½ºÅ³ ½ÀµæÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SkillLevelUpWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\½ºÅ³ ·¹º§¾÷ Ã³¸®Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SkillWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\½ºÅ³Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SysMsgWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ ¸Þ¼¼ÁöÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SystemMenuWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ ¸Þ´º</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\SystemPrintWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\½Ã½ºÅÛ Ãâ·ÂÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CEditSlashProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢ ½½·¯½¬ ¸í·É¾î Ã³¸®</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MPopupMenuWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ÆË¾÷Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PartyMemberWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ¸â¹ö Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PartyPopupWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ÆË¾÷ ¸Þ´º Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PartyInforWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ Á¤º¸ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CPAcceptYesNoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÆÄÆ¼ ¼ö¶ô ¿©ºÎÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CAcryEnchantRWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Àå½Å±¸ °¡°ø °á°úÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CAcryEnchantWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Àå½Å±¸ °¡°øÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemAccEnchant.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °­È­ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemAccEnchantRWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °­È­ °á°ú Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemCreate_SWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°ø ¼º°øÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemCreate_FWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°ø ½ÇÆÐÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemCreateWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ °¡°øÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemExchangeWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ±³È¯ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemExtractWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ÃßÃâÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemExtractRWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ÃßÃâ °á°úÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MainMenuWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¸ÞÀÎÈ­¸é ¸Þ´º °ü·Ã</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MSettingTabWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ Á¤º¸ ¼³Á¤</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MFriendTabWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ Ä£±¸Ã¢ ÅÇ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MBlockTabWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ Â÷´ÜÅÇ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MGuildTabWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä£±¸Ã¢ÀÇ ÇÁ·ÐÆ¼¾îÅÇ</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemRepairWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÀÌÅÛ ¼ö¸® Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemSkillPotionWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Æ÷¼Ç Á¦Á¶ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ItemSkillPotionRWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Æ÷¼Ç Á¦Á¶ °á°úÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\NonPlayerInfoAddWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\´Ù¸¥À¯Àú ¹× NPC ¸Þ´ºÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\NonPlayerInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\´Ù¸¥À¯Àú ¹× NPCÁ¤º¸Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\FrontierMainWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÇÁ·ÐÆ¼¾î ¸ÞÀÎ Á¤º¸ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\FrontierCreateWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÇÁ·ÐÆ¼¾î »ý¼ºÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\AbilityUpWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\´É·Â¾÷ Ã³¸®Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\AbilityUpConfirmWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\´É·Â¾÷ °á°ú%28È®ÀÎ/Ãë¼Ò%29Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PetInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Æê »óÅÂÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PetInventoryWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Æê ÀÎº¥Åä¸® Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\PetMainWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Æê ¸ÞÀÎÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChatPartWndList.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃ´ëÈ­ È°¼ºÈ­/ºñÈ°¼ºÈ­ °ü·Ã</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MessageBox.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ¼¼Áö ¹Ú½º</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MessageWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ¼¼Áö ¹Ú½º</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ChatBoxWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\Ã¤ÆÃ ¸Þ¼¼Áö Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MCommunityWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\Ä£±¸Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MessenNotifyWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú ¾Ë¸²Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MMsgWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú ¸Þ¼¼Áö Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MessenMultiChatWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸ÖÆ¼Ã¤ÆÃ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\MessenOneChatWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ã¤ÆÃÃ¢\¸Þ½ÅÀú Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CColItemPreViewWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï ¾ÆÀÌÅÛ ¹Ì¸®º¸±â Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CColMapPositionWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ¸®´Ï °ø¼º/¼ö¼º º´±â ¸Ê¹èÄ¡</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CColRegionInfoWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï Áö¿ª Á¤º¸Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CColRegionListWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\ÄÝ·Î´Ï Áö¿ª ¾È³» ¸®½ºÆ®Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\WarehouseWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\º¸°üÇÔ Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\OptionWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¿É¼ÇÃ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CWebShopWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\À¥»óÁ¡</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CLogWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\·Î±×Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\AliveWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\Ä³¸¯ÅÍ ºÎÈ°Ã¢</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CGuideWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\°¡ÀÌµå Ã¢%28¸ðÇè¹é¼­%29</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CArcherBar.h">
+      <Filter>RockLibrary\RockInterface\WndProc\¾ÆÃ³ ÄÁµð¼Ç °ÔÀÌÁö ¹Ù</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CDelayBarWnd.h">
+      <Filter>RockLibrary\RockInterface\WndProc\µô·¹ÀÌ ¹Ù</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\GuildInventoryWndProc.h">
+      <Filter>RockLibrary\RockInterface\WndProc\±æµåÃ¢°í</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\ProposeJoinFrontier.h">
+      <Filter>RockLibrary\RockInterface\WndProc\±æµåÃÊ´ë</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockInterface\CompntCommon.h">
+      <Filter>RockLibrary\RockInterface\UIÃ¢µé »ý¼º</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\ExceptionHandler.h">
+      <Filter>RockLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\GlobalDefine.h">
+      <Filter>RockLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\HHMWorkDefine.h">
+      <Filter>RockLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\PickHeightField.h">
+      <Filter>RockLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockPCH.h">
+      <Filter>RockLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="rocklibs\RockWater.h">
+      <Filter>RockLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Squence\CChangeClass.h">
+      <Filter>Squence</Filter>
+    </ClInclude>
+    <ClInclude Include="Squence\CRotDisplay.h">
+      <Filter>Squence</Filter>
+    </ClInclude>
+    <ClInclude Include="Squence\CSquenceBase.h">
+      <Filter>Squence</Filter>
+    </ClInclude>
+    <ClInclude Include="Squence\CSquenceManager.h">
+      <Filter>Squence</Filter>
+    </ClInclude>
+    <ClInclude Include="Squence\CThreeWayDisplay.h">
+      <Filter>Squence</Filter>
+    </ClInclude>
+    <ClInclude Include="CIMEddk.h">
+      <Filter>¹Ì»ç¿ë</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>¹Ì»ç¿ë</Filter>
+    </ClInclude>
+    <ClInclude Include="RockChksum.h">
+      <Filter>¹Ì»ç¿ë</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Ä«¸Þ¶ó</Filter>
+    </ClInclude>
+    <ClInclude Include="CCloud.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="defineMap_ID.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="landpatch.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="landscape.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDataManager.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="quadlist.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>ÁöÇü</Filter>
+    </ClInclude>
+    <ClInclude Include="AThread.h">
+      <Filter>½º·¹µå</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemTexLoadThread.h">
+      <Filter>½º·¹µå</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoadingBarThread.h">
+      <Filter>½º·¹µå</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogoDisplayThread.h">
+      <Filter>½º·¹µå</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetProcThread.h">
+      <Filter>½º·¹µå</Filter>
+    </ClInclude>
+    <ClInclude Include="HShield.h">
+      <Filter>ÇÙ½¯µå</Filter>
+    </ClInclude>
+    <ClInclude Include="HsUserUtil.h">
+      <Filter>ÇÙ½¯µå</Filter>
+    </ClInclude>
+    <ClInclude Include="NPGameLib.h">
+      <Filter>°ÔÀÓ°¡µå</Filter>
+    </ClInclude>
+    <ClInclude Include="RockClient.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="GTimer.h">
+      <Filter>½Ã°£</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTime.h">
+      <Filter>½Ã°£</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTime.h">
+      <Filter>½Ã°£</Filter>
+    </ClInclude>
+    <ClInclude Include="GMCmdDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTransLogDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="defineHID_ID.h">
+      <Filter>½ºÆ®¸µ</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineSTR_ID.h">
+      <Filter>½ºÆ®¸µ</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager.h">
+      <Filter>½ºÆ®¸µ</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer.h">
+      <Filter>·»´õ</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderManager.h">
+      <Filter>·»´õ</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderState.h">
+      <Filter>·»´õ</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureState.h">
+      <Filter>·»´õ</Filter>
+    </ClInclude>
+    <ClInclude Include="CIndexList.h">
+      <Filter>STL Á÷Á¢±¸Çö</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>°ÔÀÓÀÌÆåÆ®</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\RockDev\Microsoft DX90SDK Update\Include\dmdls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="iconimg.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rocklibs\profile\ÇÁ·ÎÆÄÀÏ·¯_ÀÛ¾÷³»¿ë.txt">
+      <Filter>RockLibrary\profile</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\ORockDocs\±âÈ¹ÆÀ°ü¸®\Å×ÀÌºíÆÄÀÏ\Etc\Interface\CBT.txt" />
+    <CustomBuild Include="..\..\..\ORockDocs\ETC\gm_help.txt" />
+    <CustomBuild Include="..\..\..\ORockDocs\±âÈ¹ÆÀ°ü¸®\Å×ÀÌºíÆÄÀÏ\Etc\Interface\HelpTip.txt" />
+    <CustomBuild Include="SeiyaOnline.exe.mainfest" />
+    <CustomBuild Include="..\..\..\ORockDocs\±âÈ¹ÆÀ°ü¸®\Å×ÀÌºíÆÄÀÏ\Etc\Interface\TID.txt" />
+    <CustomBuild Include="work.txt" />
+  </ItemGroup>
+</Project>
